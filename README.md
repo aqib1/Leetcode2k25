@@ -27,4 +27,16 @@
 |  |
 | ------- |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
+## Tree
+|  |
+| ------- |
+| [0110-balanced-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0110-balanced-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0110-balanced-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0110-balanced-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0110-balanced-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0110-balanced-binary-tree) |
 <!---LeetCode Topics End-->
