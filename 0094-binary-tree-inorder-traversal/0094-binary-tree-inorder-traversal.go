@@ -6,6 +6,9 @@
  *     Right *TreeNode
  * }
  */
+
+ // Time complexity O(n)
+ // Space complexity OLog(n)
 func inorderTraversal(root *TreeNode) []int {
     data := make([]int, 0, 10)
 	inorder(root, &data)
