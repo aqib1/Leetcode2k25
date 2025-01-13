@@ -16,6 +16,9 @@
 import java.util.*;
 
 class Solution {
+
+    // Time complexity O(n)
+    // Space complexity O(n)
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         postOrder(root, result, 0);
