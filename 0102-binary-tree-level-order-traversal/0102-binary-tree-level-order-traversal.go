@@ -7,22 +7,21 @@
  * }
  */
 func levelOrder(root *TreeNode) [][]int {
-    data := make([][]int, 0, 10)
-
-	preorderSolve(root, &data, 0)
-
-	return data
+  data := make([][]int, 0, 10)
+    preorder(root, &data, 0)  
+  return data
 }
 
-func preorderSolve(root *TreeNode, data *[][]int, height int) {
-	if root == nil {
-		return
-	}
-	if len(*data) == height {
-		*data = append(*data, []int{})
-	}
-	(*data)[height] = append((*data)[height], root.Val)
+func preorder(root *TreeNode, data *[][]int, height int) {
+    if root == nil {
+        return
+    }
 
-	preorderSolve(root.Left, data, height+1)
-	preorderSolve(root.Right, data, height+1)
+    if len(*data) == height {
+        *data = append(*data, []int{})
+    }
+
+    (*data)[height] = append((*data)[height], root.Val)
+    preorder(root.Left, data, height + 1)
+    preorder(root.Right, data, height + 1)
 }
