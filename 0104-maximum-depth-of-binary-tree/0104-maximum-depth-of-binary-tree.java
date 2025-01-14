@@ -14,19 +14,17 @@
  * }
  */
 class Solution {
-    private int depth;
     public int maxDepth(TreeNode root) {
-        findDepthUsingTopDown(root, 1);
-        return depth;
+        return findUsingBottomUp(root, 0);
     }
     
-    private void findDepthUsingTopDown(TreeNode root, int depth) {
+   private int findUsingBottomUp(TreeNode root, int depth) {
         if(root == null)
-            return;
-        if(root.left == null && root.right == null) {
-            this.depth = Math.max(this.depth, depth);
-        }
-        findDepthUsingTopDown(root.left, depth + 1);
-        findDepthUsingTopDown(root.right, depth + 1);
+            return depth;
+
+        return Math.max(
+                findUsingBottomUp(root.left, depth),
+                findUsingBottomUp(root.right, depth)
+        ) + 1;
     }
 }
