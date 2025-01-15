@@ -14,33 +14,34 @@
  * }
  */
 class Solution {
+
     private int count;
-    public Solution() {
-        count = 0;
-    }
-
     public int countUnivalSubtrees(TreeNode root) {
-        countUni(root);
-        return count;
+       countUntil(root);
+       return count;
     }
 
-    private boolean countUni(TreeNode root) {
-        if(root == null)
+    public boolean countUntil(TreeNode root) {
+        if(root == null) 
             return true;
 
-        boolean left = countUni(root.left);
-        boolean right = countUni(root.right);
+        boolean left = countUntil(root.left);
+        boolean right = countUntil(root.right);
 
         if(left && right) {
-            if((root.left != null && root.val != root.left.val)
-                            || (root.right != null && root.val != root.right.val)) {
+            if(root.left != null && root.val != root.left.val) {
+                return false;
+            }
+
+            if(root.right != null && root.val != root.right.val) {
                 return false;
             }
 
             count++;
             return true;
+
         } else {
             return false;
-        }
+        }    
     }
 }
