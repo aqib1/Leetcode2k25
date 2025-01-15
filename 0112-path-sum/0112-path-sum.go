@@ -6,21 +6,20 @@
  *     Right *TreeNode
  * }
  */
-func hasPathSum(root *TreeNode, targetSum int) bool {
-    return hasPathSumRec(root, targetSum, 0)
-}
 
-func hasPathSumRec(root *TreeNode, target int, current int) bool {
+ // Time complexity O(N)
+ // Space complexity O(N)
+func hasPathSum(root *TreeNode, targetSum int) bool {
 	if root == nil {
 		return false
 	}
 
-	sum := root.Val + current
+	targetSum -= root.Val
 
-	if root.Left == nil && root.Right == nil && target == sum {
+	if root.Left == nil && root.Right == nil && targetSum == 0 {
 		return true
 	}
-    
-	return hasPathSumRec(root.Left, target, sum) ||
-		hasPathSumRec(root.Right, target, sum)
+
+	return hasPathSum(root.Left, targetSum) ||
+		hasPathSum(root.Right, targetSum)
 }
