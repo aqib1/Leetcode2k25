@@ -1,8 +1,8 @@
 class Solution {
+    // Time O(n) and space O(1)
     public int singleNumber(int[] nums) {
-        int zero = 0;
-        for(int n : nums) zero ^= n;
-
-        return zero;
+        int number = 0;
+        for(int n: nums) number ^= n;
+        return number;
     }
 }
