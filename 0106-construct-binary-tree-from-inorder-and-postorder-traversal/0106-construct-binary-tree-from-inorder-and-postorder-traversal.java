@@ -13,30 +13,28 @@
  *     }
  * }
  */
+import java.util.HashMap;
+import java.util.Map;
 class Solution {
-    private int[] postorder;
-    private int postorderIndex;
-    private Map<Integer, Integer> inorderIndex;
+ private Map<Integer, Integer> inOrderIndexMap = new HashMap<>();
 
-    public TreeNode buildTree(int[] inorder, int[] postorder) {
-        this.inorderIndex = new HashMap<>();
-        this.postorder = postorder;
-        postorderIndex = postorder.length - 1;
-        int index = 0;
-        for(int in : inorder) inorderIndex.put(in, index++);
+	public TreeNode buildTree(int[] inorder, int[] postorder) {
+		for (int x = 0; x < inorder.length; x++) {
+			inOrderIndexMap.put(inorder[x], x);
+		}
+		return buildTree(inorder, postorder, 0, inorder.length - 1, postorder.length - 1);
+	}
 
-        return helper(0, inorder.length - 1);
-    }
-
-    private TreeNode helper(int left, int right) {
-        if(left > right)
-            return null;
-
-        TreeNode rootNode = new TreeNode(postorder[postorderIndex]);
-        int rootIndex = inorderIndex.get(rootNode.val);
-        postorderIndex--;
-        rootNode.right = helper(rootIndex + 1, right);
-        rootNode.left = helper(left, rootIndex - 1);
-        return rootNode;
-    }
+private TreeNode buildTree(int[] inorder, int[] postorder, int start, int end, int postOrderIndex) {
+		if (start > end || postOrderIndex < 0)
+			return null;
+		TreeNode node = new TreeNode(postorder[postOrderIndex]);
+		if (start == end)
+			return node;
+		int indexOfInOrder = inOrderIndexMap.get(node.val);
+		node.left = buildTree(inorder, postorder, start, indexOfInOrder - 1,
+				(postOrderIndex + indexOfInOrder) - end - 1);
+		node.right = buildTree(inorder, postorder, indexOfInOrder + 1, end, postOrderIndex - 1);
+		return node;
+	}
 }
