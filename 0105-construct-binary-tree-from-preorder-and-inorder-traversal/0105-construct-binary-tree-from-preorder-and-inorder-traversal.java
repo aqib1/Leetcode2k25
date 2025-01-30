@@ -17,6 +17,9 @@ class Solution {
     private int[] preorder;
     private int preorderIndex;
     private Map<Integer, Integer> inorderMap;
+    // Pre Order = NLR (construct left first)
+    // Space complexity O(n)
+    // Time complexity O(n)
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         this.preorder = preorder;
         int inorderIndex = 0;
