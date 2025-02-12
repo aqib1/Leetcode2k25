@@ -15,27 +15,26 @@
  */
 class Solution {
     private int[] postorder;
+    private Map<Integer, Integer> inorderWithIndex;
     private int postorderIndex;
-    private Map<Integer, Integer> inorderIndex;
 
+    // LRN
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        this.inorderIndex = new HashMap<>();
+        this.inorderWithIndex = new HashMap<>();
         this.postorder = postorder;
-        postorderIndex = postorder.length - 1;
+        this.postorderIndex = postorder.length - 1;
         int index = 0;
-        for(int in : inorder) inorderIndex.put(in, index++);
-
-        return helper(0, inorder.length - 1);
+        for(int i: inorder) inorderWithIndex.put(i, index++);
+        return helper(0, postorder.length - 1);
     }
 
     private TreeNode helper(int left, int right) {
         if(left > right)
             return null;
-
-        TreeNode rootNode = new TreeNode(postorder[postorderIndex--]);
-        int rootIndex = inorderIndex.get(rootNode.val);
-        rootNode.right = helper(rootIndex + 1, right);
-        rootNode.left = helper(left, rootIndex - 1);
-        return rootNode;
+        var root = new TreeNode(postorder[postorderIndex--]);
+        int rootIndex = this.inorderWithIndex.get(root.val);
+        root.right = helper(rootIndex + 1, right);
+        root.left = helper(left, rootIndex - 1);
+        return root;
     }
 }
