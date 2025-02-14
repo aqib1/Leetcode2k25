@@ -3,6 +3,8 @@ class Solution {
         return fib(n, 0, 1);
     }
 
+    // using tail recursion to avoid back-tracking
+    // Time O(n) and space O(n)
     public int fib(int n, int a, int b) {
         if(n == 0)
             return a;
