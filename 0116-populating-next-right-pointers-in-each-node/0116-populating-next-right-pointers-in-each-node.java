@@ -22,6 +22,7 @@ class Node {
 */
 
 class Solution {
+    // Time complexity O(n) and space O(n)
     public Node connect(Node root) {
         if (root == null)
             return null;
