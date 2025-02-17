@@ -24,30 +24,25 @@ class Node {
 class Solution {
     // Time complexity O(n) and space O(n)
     public Node connect(Node root) {
-        if (root == null)
+        if(root == null)
             return null;
-        root.next = new Node(0);
         Queue<Node> bfs = new LinkedList<>();
         bfs.add(root);
+        while(!bfs.isEmpty()) {
+            var size = bfs.size();
+            for(int i = 0; i < size; i++) {
+                var current = bfs.poll();
+                if(i != size - 1) {
+                    current.next = bfs.peek();
+                }
 
-        while (!bfs.isEmpty()) {
-            var current = bfs.poll();
-            var index = current.next.val;
-            if (bfs.isEmpty() || current.next.val != bfs.peek().next.val) {
-                current.next = null;
-            } else {
-                current.next = bfs.peek();
+                if(current.left != null) {
+                    bfs.add(current.left);
+                }
 
-            }
-
-            if (current.left != null) {
-                current.left.next = new Node(index + 1);
-                bfs.add(current.left);
-            }
-
-            if (current.right != null) {
-                current.right.next = new Node(index + 1);
-                bfs.add(current.right);
+                if(current.right != null) {
+                    bfs.add(current.right);
+                }
             }
         }
 
