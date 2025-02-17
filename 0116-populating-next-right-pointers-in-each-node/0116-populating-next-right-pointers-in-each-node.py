@@ -9,6 +9,7 @@ class Node:
 """
 from collections import deque
 
+## Time complexity O(n) and space complexity O(n)
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
         if not root:
