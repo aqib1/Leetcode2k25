@@ -10,6 +10,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0136-single-number](https://github.com/aqib1/Leetcode2k25/tree/master/0136-single-number) |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -22,6 +23,7 @@
 |  |
 | ------- |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -83,6 +85,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -110,6 +113,7 @@
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -136,4 +140,12 @@
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aqib1/Leetcode2k25/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
+## Quickselect
+|  |
+| ------- |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 <!---LeetCode Topics End-->
