@@ -15,6 +15,7 @@
 |  |
 | ------- |
 | [0136-single-number](https://github.com/aqib1/Leetcode2k25/tree/master/0136-single-number) |
+| [0338-counting-bits](https://github.com/aqib1/Leetcode2k25/tree/master/0338-counting-bits) |
 ## Sliding Window
 |  |
 | ------- |
@@ -126,6 +127,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0338-counting-bits](https://github.com/aqib1/Leetcode2k25/tree/master/0338-counting-bits) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 ## Recursion
 |  |
