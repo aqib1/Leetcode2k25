@@ -8,7 +8,7 @@
  * }
  */
 public class Codec {
-
+    // Time complexity O(n) and space complexity O(n)
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
        return serialize(root, "");
