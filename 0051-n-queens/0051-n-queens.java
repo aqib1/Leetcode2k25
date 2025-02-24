@@ -1,4 +1,5 @@
 class Solution {
+    // Time complexity O(N!) and Space complexity O(n2)
     private final List<List<String>> response = new ArrayList<>();
     private char[][] board;
     private int numberOfQueens;
