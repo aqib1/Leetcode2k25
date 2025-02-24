@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0051-n-queens](https://github.com/aqib1/Leetcode2k25/tree/master/0051-n-queens) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -164,4 +165,8 @@
 |  |
 | ------- |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
+## Backtracking
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/aqib1/Leetcode2k25/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
