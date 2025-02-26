@@ -169,4 +169,5 @@
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/aqib1/Leetcode2k25/tree/master/0051-n-queens) |
+| [0052-n-queens-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0052-n-queens-ii) |
 <!---LeetCode Topics End-->
