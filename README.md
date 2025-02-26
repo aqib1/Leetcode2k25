@@ -128,6 +128,7 @@
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
+| [3684-substring-matching-pattern](https://github.com/aqib1/Leetcode2k25/tree/master/3684-substring-matching-pattern) |
 ## Hash Table
 |  |
 | ------- |
@@ -173,4 +174,8 @@
 | ------- |
 | [0051-n-queens](https://github.com/aqib1/Leetcode2k25/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0052-n-queens-ii) |
+## String Matching
+|  |
+| ------- |
+| [3684-substring-matching-pattern](https://github.com/aqib1/Leetcode2k25/tree/master/3684-substring-matching-pattern) |
 <!---LeetCode Topics End-->
