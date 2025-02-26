@@ -1,4 +1,5 @@
 class Solution {
+    // Time O(N * M) and Space O(N)
     public int numUniqueEmails(String[] emails) {
           var set = new HashSet<String>();
         for(var email: emails) {
