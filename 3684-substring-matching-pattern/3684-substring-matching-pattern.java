@@ -1,4 +1,5 @@
 class Solution {
+    // Time complexity O(2) as loop will always be 2 iteration and space is O(2)
     public boolean hasMatch(String s, String p) {
         var ps = p.split("\\*");
         var psIndex = 0;
