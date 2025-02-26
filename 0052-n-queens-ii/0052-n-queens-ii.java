@@ -1,4 +1,5 @@
 class Solution {
+    // Time complexity O(N!) and Space complexity O(N^2)
     private int count;
     private char[][] board;
     private int numberOfQueens;
