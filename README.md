@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0001-two-sum) |
+| [0042-trapping-rain-water](https://github.com/aqib1/Leetcode2k25/tree/master/0042-trapping-rain-water) |
 | [0051-n-queens](https://github.com/aqib1/Leetcode2k25/tree/master/0051-n-queens) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -105,6 +106,7 @@
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/aqib1/Leetcode2k25/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0145-binary-tree-postorder-traversal) |
@@ -121,6 +123,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/aqib1/Leetcode2k25/tree/master/0042-trapping-rain-water) |
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
 | [1894-merge-strings-alternately](https://github.com/aqib1/Leetcode2k25/tree/master/1894-merge-strings-alternately) |
 ## String
@@ -147,6 +150,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/aqib1/Leetcode2k25/tree/master/0042-trapping-rain-water) |
 | [0338-counting-bits](https://github.com/aqib1/Leetcode2k25/tree/master/0338-counting-bits) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 ## Recursion
@@ -183,4 +187,8 @@
 |  |
 | ------- |
 | [3684-substring-matching-pattern](https://github.com/aqib1/Leetcode2k25/tree/master/3684-substring-matching-pattern) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/aqib1/Leetcode2k25/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
