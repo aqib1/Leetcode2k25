@@ -142,6 +142,7 @@
 ## Math
 |  |
 | ------- |
+| [0009-palindrome-number](https://github.com/aqib1/Leetcode2k25/tree/master/0009-palindrome-number) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 ## Dynamic Programming
 |  |
