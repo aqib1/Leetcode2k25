@@ -1,4 +1,5 @@
 class Solution {
+    // Time OLog(x) and space O(1)
     public boolean isPalindrome(int x) {
         return x >= 0 && reverse(x) == x;
     }
