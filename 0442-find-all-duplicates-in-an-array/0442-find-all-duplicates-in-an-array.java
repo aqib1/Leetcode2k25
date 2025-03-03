@@ -1,5 +1,7 @@
 class Solution {
     public List<Integer> findDuplicates(int[] nums) {
+
+        // Time O(n) and Space O(k)
         List<Integer> response = new ArrayList<>();
 
         for(int i = 0; i < nums.length; i++) {
