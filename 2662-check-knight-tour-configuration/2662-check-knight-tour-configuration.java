@@ -1,4 +1,5 @@
 class Solution {
+    // Time complexity O(N!) & Space O(N)
     private static final int []X_MOVES = {1, 2, -1, 2, -2, 1, -2, -1};
     private static final int []Y_MOVES = {2, 1, 2, -1, 1, -2, -1, -2};
     private static final int MOVES = X_MOVES.length;
