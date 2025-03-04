@@ -14,6 +14,7 @@
 | [0136-single-number](https://github.com/aqib1/Leetcode2k25/tree/master/0136-single-number) |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
@@ -74,6 +75,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/aqib1/Leetcode2k25/tree/master/0250-count-univalue-subtrees) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
 ## Binary Tree
 |  |
@@ -123,6 +125,7 @@
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aqib1/Leetcode2k25/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
 ## Two Pointers
 |  |
@@ -199,6 +202,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
 ## Simulation
 |  |
