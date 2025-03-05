@@ -1,4 +1,5 @@
 class Solution {
+    // Time complexity O(NLog(N)) [Linear Arithmatic ] and Space O(N)
     private int[] data;
     private int[] temp;
     private BiPredicate<Integer, Integer> rule;
