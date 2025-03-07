@@ -1,6 +1,7 @@
 import java.util.AbstractMap;
 
 class Solution {
+    // Time complexity ONLog(N) with exactly K space
     public int[][] kClosest(int[][] points, int k) {
         var maxHeap = new PriorityQueue<Map.Entry<int[], Double>>(
                 (e1, e2) -> Double.compare(e2.getValue(), e1.getValue()));
