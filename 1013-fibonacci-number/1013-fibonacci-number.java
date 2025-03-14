@@ -1,16 +1,21 @@
 class Solution {
     public int fib(int n) {
-        return fib(n, 0, 1);
+        if(n == 0)
+            return 0;
+            
+        int[] memoization = new int[n + 1];
+        memoization[0] = 0;
+        memoization[1] = 1;
+        return fib(n, memoization);
     }
 
-    // using tail recursion to avoid back-tracking
-    // Time O(n) and space O(n)
-    public int fib(int n, int a, int b) {
-        if(n == 0)
-            return a;
-        if(n == 1)
-            return b;
+    public int fib(int n, int[] memoization) {
+        if(n == 0 || n == 1)
+            return n;
+        if(memoization[n] != 0)
+            return memoization[n];
 
-        return fib(n - 1, b, a+b);        
+        memoization[n] = fib(n - 1, memoization) + fib(n - 2, memoization);
+        return memoization[n];
     }
 }
