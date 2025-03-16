@@ -1,4 +1,6 @@
 class Solution {
+
+    // Time & space complexity O(2^n)
     public int findTargetSumWays(int[] nums, int target) {
         return find(nums, target, 0);
     }
