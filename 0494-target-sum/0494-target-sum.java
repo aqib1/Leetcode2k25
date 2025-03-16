@@ -1,22 +1,59 @@
 class Solution {
 
-    private Map<String, Integer> memo;
+    int totalSum;
     public int findTargetSumWays(int[] nums, int target) {
-        memo = new HashMap<>();
-        return find(nums, target, 0);
+        totalSum = Arrays.stream(nums).sum();
+
+        int[][] memo = new int[nums.length][2 * totalSum + 1];
+        for (int[] row : memo) {
+            Arrays.fill(row, Integer.MIN_VALUE);
+        }
+        return calculateWays(nums, 0, 0, target, memo);
     }
 
-    private int find(int[] nums, int target, int index) {
-        if (index == nums.length)
-            return target == 0 ? 1 : 0;
+     private int calculateWays(
+        int[] nums,
+        int currentIndex,
+        int currentSum,
+        int target,
+        int[][] memo
+    ) {
+        if (currentIndex == nums.length) {
+            // Check if the current sum matches the target
+            if (currentSum == target) {
+                return 1;
+            } else {
+                return 0;
+            }
+        } else {
+            // Check if the result is already computed
+            if (
+                memo[currentIndex][currentSum + totalSum] != Integer.MIN_VALUE
+            ) {
+                return memo[currentIndex][currentSum + totalSum];
+            }
+            // Calculate ways by adding the current number
+            int add = calculateWays(
+                nums,
+                currentIndex + 1,
+                currentSum + nums[currentIndex],
+                target,
+                memo
+            );
 
-        var key = target + " , " + index;
-        if(memo.containsKey(key))
-            return memo.get(key);
+            // Calculate ways by subtracting the current number
+            int subtract = calculateWays(
+                nums,
+                currentIndex + 1,
+                currentSum - nums[currentIndex],
+                target,
+                memo
+            );
 
-        int sum = find(nums, target + nums[index], index + 1)
-                + find(nums, target - nums[index], index + 1);
-        memo.put(key, sum);
-        return sum;
+            // Store the result in memoization table
+            memo[currentIndex][currentSum + totalSum] = add + subtract;
+
+            return memo[currentIndex][currentSum + totalSum];
+        }
     }
 }
