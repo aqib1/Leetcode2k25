@@ -1,19 +1,22 @@
 class Solution {
 
-    // Time & space complexity O(2^n)
+    private Map<String, Integer> memo;
     public int findTargetSumWays(int[] nums, int target) {
+        memo = new HashMap<>();
         return find(nums, target, 0);
     }
 
-    public int find(int[] nums, int target, int n) {
-        if(n == nums.length) {
-            if(target == 0)
-                return 1;
-            else
-                return 0;
-        }
+    private int find(int[] nums, int target, int index) {
+        if (index == nums.length)
+            return target == 0 ? 1 : 0;
 
-        return find(nums, target + nums[n], n + 1)
-                + find(nums, target - nums[n], n + 1);
+        var key = target + " , " + index;
+        if(memo.containsKey(key))
+            return memo.get(key);
+
+        int sum = find(nums, target + nums[index], index + 1)
+                + find(nums, target - nums[index], index + 1);
+        memo.put(key, sum);
+        return sum;
     }
 }
