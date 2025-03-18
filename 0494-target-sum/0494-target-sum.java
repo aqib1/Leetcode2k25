@@ -1,59 +1,39 @@
 class Solution {
 
-    int totalSum;
+    private int[][] dp;
+    private int totalSum;
     public int findTargetSumWays(int[] nums, int target) {
         totalSum = Arrays.stream(nums).sum();
-
-        int[][] memo = new int[nums.length][2 * totalSum + 1];
-        for (int[] row : memo) {
-            Arrays.fill(row, Integer.MIN_VALUE);
+        dp = new int[nums.length][(totalSum * 2) + 1];
+        for(int[] its : dp) {
+            Arrays.fill(its, Integer.MIN_VALUE);
         }
-        return calculateWays(nums, 0, 0, target, memo);
+
+        return find(nums, 0, 0, target);
     }
 
-     private int calculateWays(
-        int[] nums,
-        int currentIndex,
-        int currentSum,
-        int target,
-        int[][] memo
-    ) {
-        if (currentIndex == nums.length) {
-            // Check if the current sum matches the target
-            if (currentSum == target) {
-                return 1;
-            } else {
-                return 0;
-            }
-        } else {
-            // Check if the result is already computed
-            if (
-                memo[currentIndex][currentSum + totalSum] != Integer.MIN_VALUE
-            ) {
-                return memo[currentIndex][currentSum + totalSum];
-            }
-            // Calculate ways by adding the current number
-            int add = calculateWays(
-                nums,
-                currentIndex + 1,
-                currentSum + nums[currentIndex],
-                target,
-                memo
-            );
-
-            // Calculate ways by subtracting the current number
-            int subtract = calculateWays(
-                nums,
-                currentIndex + 1,
-                currentSum - nums[currentIndex],
-                target,
-                memo
-            );
-
-            // Store the result in memoization table
-            memo[currentIndex][currentSum + totalSum] = add + subtract;
-
-            return memo[currentIndex][currentSum + totalSum];
+    public int find(int[] nums, int index, int current, int target) {
+        if(index == nums.length) {
+            return current == target ? 1 : 0;
         }
+        if(dp[index][totalSum + current] != Integer.MIN_VALUE) {
+            return dp[index][totalSum + current];
+        }
+
+        int sum = find(
+                nums,
+                index + 1,
+                current + nums[index],
+                target
+        );
+
+        int sub = find(
+                nums,
+                index + 1,
+                current - nums[index],
+                target
+        );
+        return dp[index][totalSum + current] = sum + sub;
     }
+
 }
