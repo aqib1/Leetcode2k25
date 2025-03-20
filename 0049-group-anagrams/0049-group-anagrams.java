@@ -1,6 +1,10 @@
 class Solution {
     // time complexity ON(logN) and space O(N)
     public List<List<String>> groupAnagrams(String[] strs) {
+        // Base condition
+        if(strs == null || strs.length == 0)
+            return new ArrayList<>();
+            
         var groupAnagrams = new HashMap<String, List<String>>();
         for(var str: strs) {
             var key = getSortedKey(str);
