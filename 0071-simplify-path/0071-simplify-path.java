@@ -1,4 +1,5 @@
 class Solution {
+    // Time complexity O(n) and space O(n)
     public String simplifyPath(String path) {
         if(path == null || path.isBlank()) {
             return "";
