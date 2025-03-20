@@ -71,6 +71,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/aqib1/Leetcode2k25/tree/master/0250-count-univalue-subtrees) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -87,6 +88,7 @@
 | [0250-count-univalue-subtrees](https://github.com/aqib1/Leetcode2k25/tree/master/0250-count-univalue-subtrees) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
+| [0543-diameter-of-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0543-diameter-of-binary-tree) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
 ## Binary Tree
 |  |
@@ -107,6 +109,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/aqib1/Leetcode2k25/tree/master/0250-count-univalue-subtrees) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0543-diameter-of-binary-tree) |
 ## Divide and Conquer
 |  |
 | ------- |
