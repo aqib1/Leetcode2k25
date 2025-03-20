@@ -21,6 +21,7 @@ class Solution {
         return d;
     }
 
+   // time complexity O(N) and space O(N)
     public int find(TreeNode root) {
         if(root == null)
             return 0;
