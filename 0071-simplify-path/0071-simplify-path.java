@@ -5,23 +5,26 @@ class Solution {
             return "";
         }
         var dataSplit = path.split("/");
-        var stack = new Stack<String>();
+        var deque = new ArrayDeque<String>();
 
         for(var data : dataSplit) {
+            if(data.equals(".") || data.isBlank())
+                continue;
+
             if(data.equals("..")) {
-                if(!stack.isEmpty())
-                    stack.pop();
-            } else if(!data.equals(".") && !data.isBlank()) {
-                stack.push(data);
+                if(!deque.isEmpty())
+                    deque.removeLast();
+            } else {
+                deque.addLast(data);
             }
         }
 
-        if(stack.isEmpty())
+        if(deque.isEmpty())
             return "/";
 
         StringBuilder response = new StringBuilder();
-        while(!stack.isEmpty()) {
-            response.insert(0, "/" + stack.pop());
+        while(!deque.isEmpty()) {
+            response.append("/").append(deque.pollFirst());
         }
 
         return response.toString();
