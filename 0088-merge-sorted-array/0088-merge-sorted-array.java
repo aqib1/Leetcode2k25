@@ -1,24 +1,19 @@
 class Solution {
     // Time complexity O(n + m) and space O(n + m)
     public void merge(int[] num1, int m, int[] num2, int n) {
-       int[] res = new int[m + n];
-        int i = 0, j = 0, k = 0;
-        while(i < m && j < n) {
-            if(num1[i] < num2[j]) {
-                res[k++] = num1[i++];
+        int p = m + n - 1;
+        int p1 = m - 1;
+        int p2 = n - 1;
+
+        while(p >= 0) {
+            if(p2 < 0)
+                break;
+            if(p1 >=0 && num1[p1] > num2[p2]) {
+                num1[p] = num1[p1--];
             } else {
-                res[k++] = num2[j++];
+                num1[p] = num2[p2--];
             }
+            p--;
         }
-
-        while(i < m) {
-            res[k++] = num1[i++];
-        }
-
-        while(j < n) {
-            res[k++] = num2[j++];
-        }
-
-        System.arraycopy(res, 0, num1, 0, res.length);
     }
 }
