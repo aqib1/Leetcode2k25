@@ -1,5 +1,5 @@
 class Solution {
-    // Time complexity O(n + m) and no extra space
+    // Time complexity O(n + m) and space O(1)
     public void merge(int[] num1, int m, int[] num2, int n) {
        int p = m + n - 1;
        int p1 = m - 1;
