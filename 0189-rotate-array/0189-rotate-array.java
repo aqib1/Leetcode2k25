@@ -1,15 +1,18 @@
 class Solution {
     public void rotate(int[] nums, int k) {
-        if(k < 0)
-            throw new IllegalArgumentException();
-
         k = k % nums.length;
+        reverse(nums, 0, nums.length - 1);
+        //reverse first k numbers
+        reverse(nums, 0, k - 1);
+        // reverse all except first k
+        reverse(nums, k, nums.length - 1);
+    }
 
-        int []rotate = new int[nums.length * 2];
-        System.arraycopy(nums, 0, rotate, 0, nums.length);
-        System.arraycopy(nums, 0, rotate, nums.length, nums.length);
-
-        System.arraycopy(rotate, nums.length - k, nums, 0, nums.length);
-
+    public void reverse(int[] nums, int i, int j) {
+        while(i < j) {
+            int tmp = nums[i];
+            nums[i++] = nums[j];
+            nums[j--] = tmp;
+        }
     }
 }
