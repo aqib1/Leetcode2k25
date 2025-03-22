@@ -179,6 +179,7 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/aqib1/Leetcode2k25/tree/master/0009-palindrome-number) |
+| [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 ## Dynamic Programming
@@ -257,4 +258,8 @@
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
+## Greedy
+|  |
+| ------- |
+| [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 <!---LeetCode Topics End-->
