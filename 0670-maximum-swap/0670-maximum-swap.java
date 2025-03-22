@@ -1,4 +1,6 @@
 class Solution {
+    // Greedy approach with extra space
+    // Time complexity O(n) and space O(n)
     public int maximumSwap(int num) {
         var numStr = String.valueOf(num).toCharArray();
         var maxFromRight = new int[numStr.length];
