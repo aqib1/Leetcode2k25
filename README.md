@@ -16,6 +16,7 @@
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0136-single-number](https://github.com/aqib1/Leetcode2k25/tree/master/0136-single-number) |
+| [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
@@ -152,6 +153,7 @@
 | [0042-trapping-rain-water](https://github.com/aqib1/Leetcode2k25/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/aqib1/Leetcode2k25/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aqib1/Leetcode2k25/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
 | [1894-merge-strings-alternately](https://github.com/aqib1/Leetcode2k25/tree/master/1894-merge-strings-alternately) |
 ## String
@@ -179,6 +181,7 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/aqib1/Leetcode2k25/tree/master/0009-palindrome-number) |
+| [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
