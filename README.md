@@ -21,6 +21,7 @@
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [0494-target-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0494-target-sum) |
+| [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
@@ -43,6 +44,7 @@
 | [0075-sort-colors](https://github.com/aqib1/Leetcode2k25/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aqib1/Leetcode2k25/tree/master/0088-merge-sorted-array) |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
+| [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
@@ -212,6 +214,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
@@ -268,6 +271,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 ## Graph
 |  |
