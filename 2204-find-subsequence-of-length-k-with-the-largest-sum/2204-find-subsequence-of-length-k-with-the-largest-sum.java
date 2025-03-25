@@ -1,5 +1,5 @@
 class Solution {
-    // ON(LogK) and space O(K)
+    // Time ON(LogK) and space O(K)
     public int[] maxSubsequence(int[] nums, int k) {
         var result = new int[k];
         var minHeap = new PriorityQueue<int[]>(k, Comparator.comparingInt(a -> a[0]));
