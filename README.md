@@ -87,6 +87,7 @@
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0145-binary-tree-postorder-traversal) |
+| [0207-course-schedule](https://github.com/aqib1/Leetcode2k25/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0210-course-schedule-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/aqib1/Leetcode2k25/tree/master/0250-count-univalue-subtrees) |
@@ -145,6 +146,7 @@
 | [0112-path-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aqib1/Leetcode2k25/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0207-course-schedule](https://github.com/aqib1/Leetcode2k25/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
@@ -270,9 +272,11 @@
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/aqib1/Leetcode2k25/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0210-course-schedule-ii) |
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/aqib1/Leetcode2k25/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0210-course-schedule-ii) |
 <!---LeetCode Topics End-->
