@@ -1,33 +1,40 @@
 class Solution {
-    private static final int[] MOVES = {-1, 0, 1, 0, -1};
-    
+    private static final int[] MOVE = {0, -1, 0, 1, 0};
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
+        var visited = new boolean[maze.length][maze[0].length];
         Queue<int[]> bfs = new LinkedList<>();
-        boolean[][] visited = new boolean[maze.length][maze[0].length];
         bfs.add(start);
-        visited[start[0]][start[1]] = true;
-        while (!bfs.isEmpty()) {
-            var location = bfs.poll();
-            if (location[0] == destination[0] && location[1] == destination[1]) {
+        while(!bfs.isEmpty()) {
+            var curr = bfs.poll();
+            if(isReachToDestination(curr, destination)) {
                 return true;
             }
-            for (int move = 0; move < MOVES.length - 1; move++) {
-                var x = location[0];
-                var y = location[1];
-                while (x >= 0 && x < maze.length
-                        && y >= 0 && y < maze[x].length && maze[x][y] == 0) {
-                    x += MOVES[move];
-                    y += MOVES[move + 1];
+            for(int m = 0; m < MOVE.length - 1; m++) {
+                int newX = curr[0];
+                int newY = curr[1];
+
+                while(newX >= 0 && newX < maze.length
+                        && newY >= 0 && newY < maze[newX].length
+                            && maze[newX][newY] != 1) {
+                    newX += MOVE[m];
+                    newY += MOVE[m + 1];
                 }
 
-                x -= MOVES[move];
-                y -= MOVES[move + 1];
-                if (!visited[x][y]) {
-                    visited[x][y] = true;
-                    bfs.add(new int[]{x, y});
+                newX -= MOVE[m];
+                newY -= MOVE[m + 1];
+
+                if(!visited[newX][newY]) {
+                    visited[newX][newY] = true;
+                    bfs.add(new int[] {newX, newY});
                 }
             }
         }
+
         return false;
+    }
+
+    private boolean isReachToDestination(int[] curr, int[] destination) {
+        return curr[0] == destination[0]
+                    && curr[1] == destination[1];
     }
 }
