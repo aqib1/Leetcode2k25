@@ -1,4 +1,5 @@
 class Solution {
+    // Time complexity O(V + E) and space O(V)
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         var graph = constructGraph(numCourses, prerequisites);
         var visited = new boolean[numCourses];
