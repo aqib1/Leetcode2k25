@@ -1,4 +1,5 @@
 class Solution {
+    // Time complexity ON(LogN) and space complexity O(n)
     public int[] sortEvenOdd(int[] nums) {
         int evenLen = nums.length % 2 == 0 ?
                 nums.length / 2 : (nums.length / 2) + 1;
