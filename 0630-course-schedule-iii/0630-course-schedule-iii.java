@@ -1,4 +1,5 @@
 class Solution {
+    // Time complexity ON(logN) and space O(N)
     public int scheduleCourse(int[][] courses) {
 // sort courses on the basis of last day in ascending, so we can pick course have
         // the lowest last day.
