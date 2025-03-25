@@ -1,6 +1,6 @@
 class Solution {
     public int[] sortEvenOdd(int[] nums) {
-int evenLen = nums.length % 2 == 0 ?
+        int evenLen = nums.length % 2 == 0 ?
                 nums.length / 2 : (nums.length / 2) + 1;
         int oddLen = nums.length / 2;
 
@@ -16,24 +16,16 @@ int evenLen = nums.length % 2 == 0 ?
             }
         }
 
-        odd = Arrays.stream(odd)
-                .boxed()
-                .sorted(Comparator.reverseOrder())
-                .mapToInt(Integer::intValue)
-                .toArray();
-        even = Arrays.stream(even)
-                .boxed()
-                .sorted()
-                .mapToInt(Integer::intValue)
-                .toArray();
+        Arrays.sort(even);
+        Arrays.sort(odd);
 
 
-        j = 0; k = 0;
+        j = 0; k = odd.length - 1;
         for(int i = 0; i < nums.length; i++) {
             if(i % 2 == 0) {
                 nums[i] = even[j++];
             } else {
-                 nums[i] = odd[k++];
+                 nums[i] = odd[k--];
             }
         }
 
