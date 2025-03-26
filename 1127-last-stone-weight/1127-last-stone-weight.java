@@ -1,4 +1,5 @@
 class Solution {
+    // Time complexity ON(logN) and space O(N)
     public int lastStoneWeight(int[] stones) {
         if(stones.length == 1)
             return stones[0];
