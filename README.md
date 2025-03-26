@@ -101,6 +101,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0145-binary-tree-postorder-traversal) |
 | [0207-course-schedule](https://github.com/aqib1/Leetcode2k25/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0210-course-schedule-ii) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/aqib1/Leetcode2k25/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/aqib1/Leetcode2k25/tree/master/0250-count-univalue-subtrees) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -181,6 +182,7 @@
 | [0049-group-anagrams](https://github.com/aqib1/Leetcode2k25/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/aqib1/Leetcode2k25/tree/master/0071-simplify-path) |
 | [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/aqib1/Leetcode2k25/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
@@ -249,6 +251,7 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/aqib1/Leetcode2k25/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/1949-implement-trie-ii-prefix-tree) |
 ## Backtracking
@@ -312,5 +315,6 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/aqib1/Leetcode2k25/tree/master/0211-design-add-and-search-words-data-structure) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/1949-implement-trie-ii-prefix-tree) |
 <!---LeetCode Topics End-->
