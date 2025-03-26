@@ -1,22 +1,21 @@
 class Solution {
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
-      var res = new ArrayList<Integer>();
-            var minHeap = new PriorityQueue<Integer>((a, b) -> {
-                int a_abs = Math.abs(a - x);
-                int b_abs = Math.abs(b - x);
-                if(a_abs == b_abs)
-                    return a - b;
-                else return a_abs - b_abs;
-            });
-
-            for(int a: arr) {
-                minHeap.offer(a);
+        var response = new ArrayList<Integer>(k);
+        int left = 0;
+        int right = arr.length - k;
+        while(left < right) {
+            int mid = left + (right - left) / 2;
+            if(x - arr[mid] > arr[mid + k] - x) {
+                left = mid + 1;
+            } else {
+                right = mid;
             }
+        }
 
-            for(int i = 0; i < k; i++) {
-                res.add(minHeap.poll());
-            }
+        for(int i = left; i < left + k; i++) {
+            response.add(arr[i]);
+        }
 
-            return res.stream().sorted().toList();
+        return response;
     }
 }
