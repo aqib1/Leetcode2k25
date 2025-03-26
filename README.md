@@ -180,6 +180,7 @@
 | ------- |
 | [0049-group-anagrams](https://github.com/aqib1/Leetcode2k25/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/aqib1/Leetcode2k25/tree/master/0071-simplify-path) |
+| [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
@@ -194,6 +195,7 @@
 | [0049-group-anagrams](https://github.com/aqib1/Leetcode2k25/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/aqib1/Leetcode2k25/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -244,6 +246,7 @@
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Backtracking
 |  |
@@ -302,4 +305,8 @@
 | ------- |
 | [0207-course-schedule](https://github.com/aqib1/Leetcode2k25/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0210-course-schedule-ii) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
