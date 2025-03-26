@@ -22,6 +22,7 @@
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [0494-target-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0494-target-sum) |
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
+| [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
@@ -40,6 +41,7 @@
 |  |
 | ------- |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
+| [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 ## Sorting
 |  |
 | ------- |
@@ -48,6 +50,7 @@
 | [0088-merge-sorted-array](https://github.com/aqib1/Leetcode2k25/tree/master/0088-merge-sorted-array) |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
+| [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
@@ -136,6 +139,7 @@
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 ## Stack
 |  |
 | ------- |
@@ -166,6 +170,7 @@
 | [0088-merge-sorted-array](https://github.com/aqib1/Leetcode2k25/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
+| [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 | [1894-merge-strings-alternately](https://github.com/aqib1/Leetcode2k25/tree/master/1894-merge-strings-alternately) |
 ## String
 |  |
@@ -221,6 +226,7 @@
 |  |
 | ------- |
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
+| [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/aqib1/Leetcode2k25/tree/master/1127-last-stone-weight) |
