@@ -13,27 +13,24 @@
  *     }
  * }
  */
-import java.util.*;
-
 class Solution {
-
-    // Time complexity O(n)
-    // Space complexity O(n)
+    // Time complexity O(N) where N is number of nodes in tree and space O(N)
     public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> result = new ArrayList<>();
-        postOrder(root, result, 0);
-        return result;
+        List<List<Integer>> response = new ArrayList<>();
+        preOrder(root, 0, response);
+        return response;
     }
-
-    private void postOrder(TreeNode root, List<List<Integer>> result, int height) {
+    
+    public static void preOrder(TreeNode root, int height, List<List<Integer>> res) {
         if(root == null)
             return;
-        if(result.size() == height)
-            result.add(new ArrayList<>());
 
-        result.get(height).add(root.val);
+        if(res.size() == height)
+            res.add(new ArrayList<>());
 
-        postOrder(root.left, result, height + 1);
-        postOrder(root.right, result, height + 1);
+        res.get(height).add(root.val);
+
+        preOrder(root.left, height + 1, res);
+        preOrder(root.right, height + 1, res);
     }
 }
