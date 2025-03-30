@@ -6,7 +6,9 @@ class Solution {
         int k = m + n - 1;
 
         while(k >= 0) {
-            if(j < 0 || (i >= 0 && arr[i] > arr1[j])) {
+            if(j < 0)
+                break;
+            if(i >= 0 && arr[i] > arr1[j]) {
                 arr[k] = arr[i--];
             } else {
                 arr[k] = arr1[j--];
