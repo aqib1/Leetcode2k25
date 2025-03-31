@@ -1,58 +1,47 @@
 class Solution {
-    // Time complexity O(NLog(N)) [Linear Arithmatic ] and Space O(N)
-    private int[] data;
+    private int[] nums;
     private int[] temp;
-    private BiPredicate<Integer, Integer> rule;
-
     public int[] sortArray(int[] nums) {
-        this.data = nums;
+        this.nums = nums;
         this.temp = new int[nums.length];
-        this.rule = (a, b) -> a < b;
         mergeSort(0, nums.length - 1);
         return nums;
     }
 
-    public void mergeSort(int[] data, BiPredicate<Integer, Integer> rule) {
-        this.data = data;
-        this.temp = new int[data.length];
-        this.rule = rule;
-        mergeSort(0, data.length - 1);
-    }
-
-    public void mergeSort(int left, int right) {
-        if (left >= right) {
+    public void mergeSort(int start, int end) {
+        if(start >= end)
             return;
-        }
 
-        int mid = left + (right - left) / 2;
-        mergeSort(left, mid);
-        mergeSort(mid + 1, right);
+        int mid = start + (end - start) / 2;
+        mergeSort(start, mid);
+        mergeSort(mid + 1, end);
 
-        merge(left, mid, right);
+        merge(start, mid, end);
     }
 
-    public void merge(int left, int mid, int right) {
-        for (int i = left; i <= right; i++) {
-            temp[i] = data[i];
+    public void merge(int start, int mid, int end) {
+        for(int i = start; i <= end; i++) {
+            temp[i] = nums[i];
         }
-        int i = left;
-        int k = left;
-        int j = mid + 1;
 
-        while (i <= mid && j <= right) {
-            if (rule.test(temp[i], temp[j])) {
-                data[k++] = temp[i++];
+        int i = start;
+        int j = mid + 1;
+        int k = start;
+
+        while(i <= mid && j <= end) {
+            if(temp[i] <= temp[j]) {
+                nums[k++] = temp[i++];
             } else {
-                data[k++] = temp[j++];
+                nums[k++] = temp[j++];
             }
         }
-
-        while (i <= mid) {
-            data[k++] = temp[i++];
+        
+        while(i <= mid) {
+            nums[k++] = temp[i++];
         }
 
-        while (j <= right) {
-            data[k++] = temp[j++];
+        while(j <= end) {
+            nums[k++] = temp[j++];
         }
     }
 }
