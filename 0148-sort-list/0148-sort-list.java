@@ -9,6 +9,7 @@
  * }
  */
 class Solution {
+    // Time complexity ON(logN) and Space O(n)
     public ListNode sortList(ListNode head) {
         if(head == null || head.next == null)
             return head;
