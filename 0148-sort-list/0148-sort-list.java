@@ -10,25 +10,52 @@
  */
 class Solution {
     public ListNode sortList(ListNode head) {
-     if(head == null)
-            return null;
-        var minHeap = new PriorityQueue<ListNode>(
-                Comparator.comparingInt(l -> l.val)
-        );
+        if(head == null || head.next == null)
+            return head;
 
-        while(head != null) {
-            minHeap.offer(head);
-            head = head.next;
+        ListNode mid = mid(head);
+        ListNode nextToMid = mid.next;
+        mid.next = null; // making mid half of list
+
+        ListNode left = sortList(head);
+        ListNode right = sortList(nextToMid);
+
+        return merge(left, right);    
+    }
+
+    public ListNode merge(ListNode left, ListNode right) {
+        ListNode dummy = new ListNode(Integer.MIN_VALUE);
+        ListNode ptr = dummy;
+        
+        while(left != null && right != null) {
+            if(left.val <= right.val) {
+                ptr.next = left;
+                left = left.next;
+            } else {
+                ptr.next = right;
+                right = right.next;
+            }
+            ptr = ptr.next;
         }
 
-        var response = minHeap.poll();
-        var current = response;
-        while (!minHeap.isEmpty()) {
-            current.next = minHeap.peek();
-            current = minHeap.poll();
-        }
-        current.next = null;
+        if(left != null) ptr.next = left;
+        if(right != null) ptr.next = right;
 
-        return response;
+        return dummy.next;
+    }
+
+    public ListNode mid(ListNode head) {
+        if(head == null)
+            return head;
+
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while(fast.next != null && fast.next.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        return slow;    
     }
 }
