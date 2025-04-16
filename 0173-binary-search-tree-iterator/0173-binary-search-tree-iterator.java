@@ -14,26 +14,37 @@
  * }
  */
 class BSTIterator {
-    private final Queue<Integer> fifo;
+    private final Stack<TreeNode> lifo;
+
+    // space O(n) where n is number of nodes
+    // Time complexity O(n) where n is number of left nodes to root
     public BSTIterator(TreeNode root) {
-        this.fifo = new LinkedList<>();
-        inOrder(root);
+        this.lifo = new Stack<>();
+        insertLeftMost(root);
     }
 
-    public void inOrder(TreeNode root) {
-        if(root == null)
-            return;
-        inOrder(root.left);
-        fifo.add(root.val);
-        inOrder(root.right);
+    private void insertLeftMost(TreeNode root) {
+        while (root != null) {
+            lifo.push(root);
+            root = root.left;
+        }
     }
-    
+
+    // Time complexity O(n) where n is number of left nodes to right node
+    // if there is no more right node then O(1)
     public int next() {
-        return fifo.poll();
+        var pop = lifo.pop();
+
+        if (pop.right != null) {
+            insertLeftMost(pop.right);
+        }
+
+        return pop.val;
     }
-    
+
+    // O(1)
     public boolean hasNext() {
-        return !fifo.isEmpty();
+        return !lifo.isEmpty();
     }
 }
 
