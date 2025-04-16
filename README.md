@@ -91,6 +91,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/aqib1/Leetcode2k25/tree/master/0250-count-univalue-subtrees) |
+| [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
@@ -112,6 +113,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/aqib1/Leetcode2k25/tree/master/0250-count-univalue-subtrees) |
+| [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [0543-diameter-of-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0543-diameter-of-binary-tree) |
@@ -136,6 +138,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0250-count-univalue-subtrees](https://github.com/aqib1/Leetcode2k25/tree/master/0250-count-univalue-subtrees) |
+| [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0543-diameter-of-binary-tree) |
 ## Divide and Conquer
@@ -155,6 +158,7 @@
 | [0098-validate-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 ## Stack
