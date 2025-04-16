@@ -9,20 +9,20 @@
  */
 class Solution {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
-         var inorder = new ArrayList<TreeNode>();
-        inorder(root, inorder);
-        for(int i = 0; i < inorder.size() - 1; i++) {
-            if(inorder.get(i) == p)
-                return inorder.get(i + 1);
-        }
-        return null;
+        return successor(root, p);
     }
     
-    private void inorder(TreeNode root, ArrayList<TreeNode> inorder) {
-        if(root == null)
-            return;
-        inorder(root.left, inorder);
-        inorder.add(root);
-        inorder(root.right, inorder);
+    public TreeNode successor(TreeNode root, TreeNode p) {
+        TreeNode succssor = null;
+        while (root != null) {
+            if(p.val >= root.val) {
+                root = root.right;
+            } else {
+                succssor = root;
+                root = root.left;
+            }
+        }
+
+        return succssor;
     }
 }
