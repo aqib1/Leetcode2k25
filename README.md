@@ -95,6 +95,7 @@
 | [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0543-diameter-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0783-search-in-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -143,6 +144,7 @@
 | [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0543-diameter-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0783-search-in-a-binary-search-tree) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -164,6 +166,7 @@
 | [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
+| [0783-search-in-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0783-search-in-a-binary-search-tree) |
 ## Stack
 |  |
 | ------- |
