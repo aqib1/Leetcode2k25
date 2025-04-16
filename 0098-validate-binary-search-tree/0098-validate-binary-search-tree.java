@@ -15,23 +15,17 @@
  */
 class Solution {
     public boolean isValidBST(TreeNode root) {     
-       var inOrder = new ArrayList<Integer>();
-        inOrder(root, inOrder);
-
-        for(int i = 0; i < inOrder.size() - 1; i++) {
-            if(inOrder.get(i + 1) <= inOrder.get(i)) {
-                return false;
-            }
-        }
-
-        return true;
+       return isValid(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    private void inOrder(TreeNode root, ArrayList<Integer> inOrder) {
+    private boolean isValid(TreeNode root, long low, long high) {
         if(root == null)
-            return;
-        inOrder(root.left, inOrder);
-        inOrder.add(root.val);
-        inOrder(root.right, inOrder);
+            return true;
+
+        if(low >= root.val || high <= root.val)
+            return false;
+
+        return isValid(root.left, low, root.val)
+                    && isValid(root.right, root.val, high);
     }
 }
