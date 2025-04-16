@@ -10,6 +10,7 @@
  * }
  */
 public class Solution {
+    // time complexity O(N) and space O(1)
     public boolean hasCycle(ListNode head) {
      if(head == null || head.next == null)
         return false;
@@ -20,6 +21,7 @@ public class Solution {
     while(fast != null && fast.next != null) {
         if(slow == fast)
             return true;
+
         slow = slow.next;
         fast = fast.next.next;
     }
