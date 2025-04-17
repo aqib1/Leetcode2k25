@@ -33,6 +33,7 @@
 | [1127-last-stone-weight](https://github.com/aqib1/Leetcode2k25/tree/master/1127-last-stone-weight) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/aqib1/Leetcode2k25/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/aqib1/Leetcode2k25/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
 ## Bit Manipulation
