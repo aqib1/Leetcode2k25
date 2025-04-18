@@ -9,10 +9,11 @@
  * }
  */
 class Solution {
+    // Time complexity O(n) and space O(1)
     public ListNode deleteDuplicates(ListNode head) {
         var pointer = head;
-        while(pointer != null && pointer.next != null) {
-            if(pointer.val == pointer.next.val) {
+        while (pointer != null && pointer.next != null) {
+            if (pointer.val == pointer.next.val) {
                 pointer.next = pointer.next.next;
             } else {
                 pointer = pointer.next;
