@@ -20,6 +20,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0136-single-number](https://github.com/aqib1/Leetcode2k25/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
+| [0217-contains-duplicate](https://github.com/aqib1/Leetcode2k25/tree/master/0217-contains-duplicate) |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -56,6 +57,7 @@
 | [0075-sort-colors](https://github.com/aqib1/Leetcode2k25/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aqib1/Leetcode2k25/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/aqib1/Leetcode2k25/tree/master/0148-sort-list) |
+| [0217-contains-duplicate](https://github.com/aqib1/Leetcode2k25/tree/master/0217-contains-duplicate) |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
@@ -238,6 +240,7 @@
 | [0141-linked-list-cycle](https://github.com/aqib1/Leetcode2k25/tree/master/0141-linked-list-cycle) |
 | [0205-isomorphic-strings](https://github.com/aqib1/Leetcode2k25/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
+| [0217-contains-duplicate](https://github.com/aqib1/Leetcode2k25/tree/master/0217-contains-duplicate) |
 | [0383-ransom-note](https://github.com/aqib1/Leetcode2k25/tree/master/0383-ransom-note) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
