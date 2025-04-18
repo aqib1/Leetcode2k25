@@ -4,6 +4,7 @@ class Trie {
     private int end;
     private final Trie[] nodes;
 
+   // Time O(n) and space O(n * l)
     public Trie() {
         this.nodes = new Trie[LIMIT];
     }
