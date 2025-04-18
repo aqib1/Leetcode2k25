@@ -1,8 +1,9 @@
 class Trie {
     private static final int LIMIT = 26;
-    private int end;
     private int count;
+    private int end;
     private final Trie[] nodes;
+
     public Trie() {
         this.nodes = new Trie[LIMIT];
     }
@@ -14,10 +15,10 @@ class Trie {
             if(current.nodes[idx] == null) {
                 current.nodes[idx] = new Trie();
             }
+
             current = current.nodes[idx];
             current.count++;
         }
-
         current.end++;
     }
 
@@ -25,8 +26,9 @@ class Trie {
         var current = this;
         for(char ch: word.toCharArray()) {
             int idx = ch - 'a';
-            if(current.nodes[idx] == null)
+            if(current.nodes[idx] == null) {
                 return false;
+            }
             current = current.nodes[idx];
         }
 
@@ -37,8 +39,9 @@ class Trie {
         var current = this;
         for(char ch: prefix.toCharArray()) {
             int idx = ch - 'a';
-            if(current.nodes[idx] == null)
+            if(current.nodes[idx] == null) {
                 return false;
+            }
             current = current.nodes[idx];
         }
 
