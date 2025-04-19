@@ -224,6 +224,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/aqib1/Leetcode2k25/tree/master/0383-ransom-note) |
+| [0677-map-sum-pairs](https://github.com/aqib1/Leetcode2k25/tree/master/0677-map-sum-pairs) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
 | [1894-merge-strings-alternately](https://github.com/aqib1/Leetcode2k25/tree/master/1894-merge-strings-alternately) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/1949-implement-trie-ii-prefix-tree) |
@@ -243,6 +244,7 @@
 | [0217-contains-duplicate](https://github.com/aqib1/Leetcode2k25/tree/master/0217-contains-duplicate) |
 | [0383-ransom-note](https://github.com/aqib1/Leetcode2k25/tree/master/0383-ransom-note) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0677-map-sum-pairs](https://github.com/aqib1/Leetcode2k25/tree/master/0677-map-sum-pairs) |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/aqib1/Leetcode2k25/tree/master/0817-design-hashmap) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
@@ -304,6 +306,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/aqib1/Leetcode2k25/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0677-map-sum-pairs](https://github.com/aqib1/Leetcode2k25/tree/master/0677-map-sum-pairs) |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/aqib1/Leetcode2k25/tree/master/0817-design-hashmap) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/1949-implement-trie-ii-prefix-tree) |
@@ -371,6 +374,7 @@
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/aqib1/Leetcode2k25/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0677-map-sum-pairs](https://github.com/aqib1/Leetcode2k25/tree/master/0677-map-sum-pairs) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/1949-implement-trie-ii-prefix-tree) |
 ## Iterator
 |  |
