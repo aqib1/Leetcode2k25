@@ -12,18 +12,16 @@ class Solution {
         return successor(root, p);
     }
     
-    public TreeNode successor(TreeNode root, TreeNode p) {
-        TreeNode succssor = null;
-        
-        while (root != null) {
-            if(p.val < root.val) {
-                succssor = root;
-                root = root.left;
-            } else {
-                root = root.right;
-            }
-        }
-
-        return succssor;
+    public TreeNode successor(TreeNode node, TreeNode p) {
+       TreeNode successor = null;
+       while(node != null) {
+           if(p.val < node.val) {
+               successor = node;
+               node = node.left;
+           } else {
+               node = node.right;
+           }
+       }
+       return successor;
     }
 }
