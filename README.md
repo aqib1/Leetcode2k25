@@ -101,6 +101,7 @@
 | [0250-count-univalue-subtrees](https://github.com/aqib1/Leetcode2k25/tree/master/0250-count-univalue-subtrees) |
 | [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0450-delete-node-in-a-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0784-insert-into-a-binary-search-tree) |
@@ -151,6 +152,7 @@
 | [0250-count-univalue-subtrees](https://github.com/aqib1/Leetcode2k25/tree/master/0250-count-univalue-subtrees) |
 | [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0450-delete-node-in-a-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0784-insert-into-a-binary-search-tree) |
@@ -175,6 +177,7 @@
 | [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
 | [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0450-delete-node-in-a-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0450-delete-node-in-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 | [0783-search-in-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0784-insert-into-a-binary-search-tree) |
