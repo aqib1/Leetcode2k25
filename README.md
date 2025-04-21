@@ -22,6 +22,7 @@
 | [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/aqib1/Leetcode2k25/tree/master/0217-contains-duplicate) |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
+| [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
@@ -59,6 +60,7 @@
 | [0148-sort-list](https://github.com/aqib1/Leetcode2k25/tree/master/0148-sort-list) |
 | [0217-contains-duplicate](https://github.com/aqib1/Leetcode2k25/tree/master/0217-contains-duplicate) |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
+| [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
@@ -171,6 +173,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/aqib1/Leetcode2k25/tree/master/0173-binary-search-tree-iterator) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
+| [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 | [0783-search-in-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0783-search-in-a-binary-search-tree) |
@@ -211,6 +214,7 @@
 | [0148-sort-list](https://github.com/aqib1/Leetcode2k25/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
+| [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 | [1894-merge-strings-alternately](https://github.com/aqib1/Leetcode2k25/tree/master/1894-merge-strings-alternately) |
 ## String
@@ -242,6 +246,7 @@
 | [0205-isomorphic-strings](https://github.com/aqib1/Leetcode2k25/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/aqib1/Leetcode2k25/tree/master/0217-contains-duplicate) |
+| [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/aqib1/Leetcode2k25/tree/master/0383-ransom-note) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0677-map-sum-pairs](https://github.com/aqib1/Leetcode2k25/tree/master/0677-map-sum-pairs) |
