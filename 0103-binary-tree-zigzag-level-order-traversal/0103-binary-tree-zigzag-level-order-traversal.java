@@ -14,13 +14,13 @@
  * }
  */
 class Solution {
+    // Time complexity O(n) and space complexity O(n)
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        var leftToRight = true;
-        List<List<Integer>> response = new ArrayList<>();
-
+         List<List<Integer>> response = new ArrayList<>();
         if(root == null)
             return response;
 
+        var leftToRight = true;
         Queue<TreeNode> fifo = new LinkedList<>();
         fifo.add(root);
         while(!fifo.isEmpty()) {
