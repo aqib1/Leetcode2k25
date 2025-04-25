@@ -13,6 +13,7 @@
 | [0049-group-anagrams](https://github.com/aqib1/Leetcode2k25/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/aqib1/Leetcode2k25/tree/master/0051-n-queens) |
 | [0075-sort-colors](https://github.com/aqib1/Leetcode2k25/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/aqib1/Leetcode2k25/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/aqib1/Leetcode2k25/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -43,6 +44,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/aqib1/Leetcode2k25/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/aqib1/Leetcode2k25/tree/master/0136-single-number) |
 | [0190-reverse-bits](https://github.com/aqib1/Leetcode2k25/tree/master/0190-reverse-bits) |
 | [0338-counting-bits](https://github.com/aqib1/Leetcode2k25/tree/master/0338-counting-bits) |
@@ -327,6 +329,7 @@
 | [0037-sudoku-solver](https://github.com/aqib1/Leetcode2k25/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/aqib1/Leetcode2k25/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0052-n-queens-ii) |
+| [0078-subsets](https://github.com/aqib1/Leetcode2k25/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0494-target-sum) |
 ## String Matching
 |  |
