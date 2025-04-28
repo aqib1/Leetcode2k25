@@ -1,26 +1,40 @@
 class Solution {
+    private int row;
+    private int col;
+    private int max;
+    private char[][] matrix;
+    private Integer[][] memo;
+
     public int maximalSquare(char[][] matrix) {
-        int rows = matrix.length;
-        int columns = matrix[0].length;
-        int max = 0;
-        var dp = new int[rows + 1][columns + 1];
+        row = matrix.length;
+        col = matrix[0].length;
+        memo = new Integer[row][col];
+        memo = new Integer[row][col];
+        this.matrix = matrix;
 
-        for(int i = 1; i < rows + 1; i++) {
-            for(int j = 1; j < columns + 1; j++) {
-                if(matrix[i - 1][j - 1] == '1') {
-                    int left = dp[i][j - 1];
-                    int top = dp[i - 1][j];
-                    int diagonal = dp[i - 1][j - 1];
-
-                    int min = Math.min(left, Math.min(top, diagonal));
-
-                    dp[i][j] = min + 1;
-
-                    max = Math.max(max, dp[i][j]);
-                }
-            }
-        }
+        helper(0, 0);
 
         return max * max;
+    }
+
+    private int helper(int row, int col) {
+        if (row >= this.row || col >= this.col)
+            return 0;
+
+        if (memo[row][col] != null)
+            return memo[row][col];
+
+        int right = helper(row, col + 1);
+        int diagonal = helper(row + 1, col + 1);
+        int down = helper(row + 1, col);
+
+        int min = Math.min(right, Math.min(diagonal, down));
+        int currentValue = matrix[row][col] == '1' ? 1 : 0;
+        if (currentValue == 1) {
+            currentValue += min;
+        }
+        memo[row][col] = currentValue;
+        max = Math.max(max, currentValue);
+        return currentValue;
     }
 }
