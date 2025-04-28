@@ -32,6 +32,7 @@
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
 | [0648-replace-words](https://github.com/aqib1/Leetcode2k25/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
+| [0695-max-area-of-island](https://github.com/aqib1/Leetcode2k25/tree/master/0695-max-area-of-island) |
 | [0713-subarray-product-less-than-k](https://github.com/aqib1/Leetcode2k25/tree/master/0713-subarray-product-less-than-k) |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/aqib1/Leetcode2k25/tree/master/0817-design-hashmap) |
@@ -135,6 +136,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [0543-diameter-of-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0543-diameter-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/aqib1/Leetcode2k25/tree/master/0695-max-area-of-island) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
 ## Binary Tree
 |  |
@@ -213,6 +215,7 @@
 | [0210-course-schedule-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
+| [0695-max-area-of-island](https://github.com/aqib1/Leetcode2k25/tree/master/0695-max-area-of-island) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
 ## Two Pointers
 |  |
@@ -357,6 +360,7 @@
 | [0221-maximal-square](https://github.com/aqib1/Leetcode2k25/tree/master/0221-maximal-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
+| [0695-max-area-of-island](https://github.com/aqib1/Leetcode2k25/tree/master/0695-max-area-of-island) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
 ## Simulation
 |  |
@@ -416,4 +420,8 @@
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/aqib1/Leetcode2k25/tree/master/0713-subarray-product-less-than-k) |
+## Union Find
+|  |
+| ------- |
+| [0695-max-area-of-island](https://github.com/aqib1/Leetcode2k25/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
