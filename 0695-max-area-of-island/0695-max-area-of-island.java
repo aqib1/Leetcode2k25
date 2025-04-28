@@ -6,6 +6,7 @@ class Solution {
     private int maxArea;
     private int[][] grid;
 
+ // Time complexity O(n + m) and space O(n + m)
     public int maxAreaOfIsland(int[][] grid) {
         this.row = grid.length;
         this.colum = grid[0].length;
