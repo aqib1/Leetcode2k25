@@ -31,6 +31,7 @@
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
 | [0648-replace-words](https://github.com/aqib1/Leetcode2k25/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
+| [0713-subarray-product-less-than-k](https://github.com/aqib1/Leetcode2k25/tree/master/0713-subarray-product-less-than-k) |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/aqib1/Leetcode2k25/tree/master/0817-design-hashmap) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
@@ -54,6 +55,7 @@
 | ------- |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
+| [0713-subarray-product-less-than-k](https://github.com/aqib1/Leetcode2k25/tree/master/0713-subarray-product-less-than-k) |
 ## Sorting
 |  |
 | ------- |
@@ -184,6 +186,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0450-delete-node-in-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
+| [0713-subarray-product-less-than-k](https://github.com/aqib1/Leetcode2k25/tree/master/0713-subarray-product-less-than-k) |
 | [0783-search-in-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0784-insert-into-a-binary-search-tree) |
 ## Stack
@@ -403,4 +406,8 @@
 | ------- |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/aqib1/Leetcode2k25/tree/master/0817-design-hashmap) |
+## Prefix Sum
+|  |
+| ------- |
+| [0713-subarray-product-less-than-k](https://github.com/aqib1/Leetcode2k25/tree/master/0713-subarray-product-less-than-k) |
 <!---LeetCode Topics End-->
