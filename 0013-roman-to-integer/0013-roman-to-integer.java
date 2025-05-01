@@ -17,21 +17,22 @@ class Solution {
         ROMAN_MAP.put("CM", 900);
     }
 
-    // Time O(N) and space O(1)
+    // Time complexity O(n) and space O(1)
     public int romanToInt(String s) {
         int number = 0;
         int i = 0;
-
-        while (i < s.length()) {
-            if (i + 1 < s.length()) {
-                var twoCharKey = s.substring(i, i + 2);
-                if (ROMAN_MAP.containsKey(twoCharKey)) {
-                    number += ROMAN_MAP.get(twoCharKey);
+        while(i < s.length()) {
+            String key;
+            if(i + 1 < s.length()) {
+                 key = s.substring(i, i + 2);
+                if(ROMAN_MAP.containsKey(key)) {
                     i += 2;
+                    number += ROMAN_MAP.get(key);
                     continue;
                 }
             }
-            number += ROMAN_MAP.get(s.substring(i, i + 1));
+            key = s.substring(i, i + 1);
+            number += ROMAN_MAP.get(key);
             i++;
         }
         return number;
