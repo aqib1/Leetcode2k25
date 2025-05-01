@@ -1,21 +1,22 @@
 class Solution {
+    // Time complexity O(n) and space O(1)
     public int numSubarrayProductLessThanK(int[] nums, int k) {
-       if(k <= 1)
+        if (k <= 1)
             return 0;
-
         int product = 1;
-        int countSubArray = 0;
+        int count = 0;
+        int start = 0;
 
-        for(int start = 0, end = 0; end < nums.length; end++) {
+        for (int end = 0; end < nums.length; end++) {
             product *= nums[end];
 
-            while(product >= k) {
+            while (product >= k) {
                 product /= nums[start++];
             }
 
-            countSubArray += (end - start) + 1;
+            count += (end - start) + 1;
         }
 
-        return countSubArray;
+        return count;
     }
 }
