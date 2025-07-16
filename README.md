@@ -195,6 +195,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/aqib1/Leetcode2k25/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/aqib1/Leetcode2k25/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/aqib1/Leetcode2k25/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0094-binary-tree-inorder-traversal) |
@@ -238,6 +239,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/aqib1/Leetcode2k25/tree/master/0013-roman-to-integer) |
+| [0020-valid-parentheses](https://github.com/aqib1/Leetcode2k25/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/aqib1/Leetcode2k25/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/aqib1/Leetcode2k25/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/aqib1/Leetcode2k25/tree/master/0125-valid-palindrome) |
