@@ -1,101 +1,173 @@
 class Solution {
+    interface Node {
+        int evalute();
+
+        static Node fromString(String str) {
+            return switch (str) {
+                case "*" -> new MulNode();
+                case "/" -> new DivNode();
+                case "+" -> new AddNode();
+                case "-" -> new SubNode();
+                default -> new NumericNode(str);
+            };
+        }
+    }
+
+    static abstract class OperatorNode implements Node {
+        private Node left;
+        private Node right;
+
+        public void setRight(Node right) {
+            this.right = right;
+        }
+
+        public void setLeft(Node left) {
+            this.left = left;
+        }
+
+        public Node getRight() {
+            return right;
+        }
+
+        public Node getLeft() {
+            return left;
+        }
+    }
+
+    static class NumericNode implements Node {
+        private final String number;
+
+        public NumericNode(String number) {
+            this.number = number;
+        }
+
+        @Override
+        public int evalute() {
+            return Integer.parseInt(number);
+        }
+    }
+
+    static class DivNode extends OperatorNode {
+
+        @Override
+        public int evalute() {
+            return getLeft().evalute() / getRight().evalute();
+        }
+    }
+
+    static class MulNode extends OperatorNode {
+
+        @Override
+        public int evalute() {
+            return getLeft().evalute() * getRight().evalute();
+        }
+    }
+
+    static class AddNode extends OperatorNode {
+
+        @Override
+        public int evalute() {
+            return getLeft().evalute() + getRight().evalute();
+        }
+    }
+
+    static class SubNode extends OperatorNode {
+
+        @Override
+        public int evalute() {
+            return getLeft().evalute() - getRight().evalute();
+        }
+    }
+
     public int calculate(String s) {
-        s = s.replaceAll("\\s+", "");
+        s = s.trim();
+        s = s.replaceAll("\\s", "");
         try {
             return Integer.parseInt(s);
         } catch (NumberFormatException ex) {
             // ignore
         }
-        // convert infix notation to reverse polish notation (postfix)
-        return calculatePostfix(postfix(s));
+        var postfix = infixToPostfix(s);
+        return expressionTree(postfix).evalute();
     }
 
-    private int calculatePostfix(List<String> postfix) {
-        var stack = new Stack<Integer>();
-        for (String value : postfix) {
-            try {
-                stack.push(Integer.parseInt(value));
-            } catch (NumberFormatException ex) {
-                int second = stack.pop();
-                int first = stack.pop();
-                stack.push(
-                        operation(first, second, value)
-                );
+    public Node expressionTree(String postfix) {
+        var stack = new Stack<Node>();
+        var digit = "";
+        for (char ch : postfix.toCharArray()) {
+            if (isDigit(ch)) {
+                digit = digit.concat(String.valueOf(ch));
+            } else if (ch == ';') {
+                stack.push(Node.fromString(digit));
+                digit = "";
+            } else {
+                var node = Node.fromString(String.valueOf(ch));
+                if (node instanceof OperatorNode operator) {
+                    operator.setRight(stack.pop());
+                    operator.setLeft(stack.pop());
+                    stack.push(operator);
+                    digit = "";
+                }
             }
         }
-
         return stack.pop();
     }
 
-    private int operation(int first, int second, String operator) {
-        return switch (operator) {
-            case "+" -> first + second;
-            case "-" -> first - second;
-            case "*" -> first * second;
-            case "/" -> first / second;
-            default -> 0;
-        };
-    }
-
-        public List<String> postfix(String s) {
-        var postfix = new ArrayList<String>();
-        var stack = new Stack<Character>();
-        var data = s.toCharArray();
-        String digit = "";
-        for (int i = 0; i < data.length; i++) {
-            char ch = data[i];
-            if (Character.isDigit(ch)) {
-                digit = digit.concat(Character.toString(ch));
+    public String infixToPostfix(String infix) {
+        var postfix = new StringBuilder();
+        var operatorStack = new Stack<Character>();
+        var digit = "";
+        for (int i = 0; i < infix.length(); i++) {
+            char ch = infix.charAt(i);
+            if (isDigit(ch)) {
+                digit = digit.concat(String.valueOf(ch));
             } else {
-                if (!digit.isEmpty()) {
-                    postfix.add(digit);
-                    digit = "";
+                if (!digit.isBlank())
+                    postfix.append(digit).append(";");
+                digit = "";
+
+                if (ch == '-' && (i == 0 || (!isDigit(infix.charAt(i - 1)) && infix.charAt(i - 1) != ')') || infix.charAt(i - 1) == '(')) {
+                    postfix.append("0").append(";");
                 }
 
-                if (isOperator(ch)) {
-                    if (ch == '-' && (i == 0 || isOperator(data[i - 1]) || data[i - 1] == '(')) {
-                        postfix.add("0");
-                    }
+                while (!operatorStack.isEmpty() &&
+                        precedence(ch) != -1 &&
+                        precedence(operatorStack.peek()) >= precedence(ch)) {
+                    postfix.append(operatorStack.pop());
+                }
 
-                    while (!stack.isEmpty() &&
-                            precedence(stack.peek()) >= precedence(ch) &&
-                            precedence(ch) != -1) {
-                        postfix.add(Character.toString(stack.pop()));
+                if (ch == ')') {
+                    char opTop;
+                    while (!operatorStack.isEmpty() && (opTop = operatorStack.pop()) != '(') {
+                        postfix.append(opTop);
                     }
-                    stack.push(ch);
-                } else if (ch == '(') {
-                    stack.push(ch);
-                } else if (ch == ')') {
-                    char top;
-                    while (!stack.isEmpty() && (top = stack.pop()) != '(') {
-                        postfix.add(Character.toString(top));
-                    }
+                } else {
+                    operatorStack.push(ch);
                 }
             }
         }
 
-        if (!digit.isEmpty())
-            postfix.add(digit);
+        if (!digit.isBlank())
+            postfix.append(digit).append(";");
 
-        while (!stack.isEmpty()) {
-            postfix.add(Character.toString(stack.pop()));
-        }
+        while (!operatorStack.isEmpty())
+            postfix.append(operatorStack.pop());
 
-        return postfix;
+        return postfix.toString();
     }
 
-    public boolean isOperator(char operator) {
-        return operator == '-' ||
-                operator == '+' ||
-                operator == '*' ||
-                operator == '/';
-    }
-
-    private int precedence(char operator) {
-        return switch (operator) {
-            case '/', '*' -> 1;
-            case '+', '-' -> 0;
+    public int precedence(char ch) {
+        return switch (ch) {
+            case '^' -> 4;
+            case '/', '*' -> 2;
+            case '+', '-' -> 1;
             default -> -1;
         };
     }
+
+    public boolean isDigit(char ch) {
+        return ch != '^' && ch != '/' && ch != '+'
+                && ch != '-' && ch != '*' && ch != '(' && ch != ')' && ch != ';';
+    }
+
 }
