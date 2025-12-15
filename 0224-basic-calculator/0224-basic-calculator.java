@@ -1,163 +1,63 @@
 class Solution {
     interface Node {
-        int evalute();
-
-        static Node fromString(String str) {
-            return switch (str) {
-                case "*" -> new MulNode();
-                case "/" -> new DivNode();
-                case "+" -> new AddNode();
-                case "-" -> new SubNode();
-                default -> new NumericNode(str);
+        int evaluate();
+        static Node fromString(String node) {
+            return switch(node) {
+              case "+" -> new AddNode();
+              case "-" -> new SubNode();
+              case "*" -> new MulNode();
+              case "/" -> new DivNode();
+              default -> new NumericNode(node);
             };
         }
     }
 
     static abstract class OperatorNode implements Node {
-        private Node left;
-        private Node right;
+        private Node first;
+        private Node second;
 
-        public void setRight(Node right) {
-            this.right = right;
+        public void setFirst(Node first) {
+            this.first = first;
         }
 
-        public void setLeft(Node left) {
-            this.left = left;
+        public void setSecond(Node second) {
+            this.second = second;
         }
 
-        public Node getRight() {
-            return right;
+        public Node getFirst() {
+            return first;
         }
 
-        public Node getLeft() {
-            return left;
+        public Node getSecond() {
+            return second;
         }
     }
 
     static class NumericNode implements Node {
         private final String number;
-
         public NumericNode(String number) {
             this.number = number;
         }
-
         @Override
-        public int evalute() {
+        public int evaluate() {
             return Integer.parseInt(number);
         }
     }
 
     static class DivNode extends OperatorNode {
-
         @Override
-        public int evalute() {
-            return getLeft().evalute() / getRight().evalute();
+        public int evaluate() {
+            return getSecond().evaluate() / getFirst().evaluate();
         }
     }
 
-    static class MulNode extends OperatorNode {
 
-        @Override
-        public int evalute() {
-            return getLeft().evalute() * getRight().evalute();
-        }
-    }
-
-    static class AddNode extends OperatorNode {
-
-        @Override
-        public int evalute() {
-            return getLeft().evalute() + getRight().evalute();
-        }
-    }
-
-    static class SubNode extends OperatorNode {
-
-        @Override
-        public int evalute() {
-            return getLeft().evalute() - getRight().evalute();
-        }
-    }
-
-    public int calculate(String s) {
-        s = s.trim();
-        s = s.replaceAll("\\s", "");
-        try {
-            return Integer.parseInt(s);
-        } catch (NumberFormatException ex) {
-            // ignore
-        }
-        var postfix = infixToPostfix(s);
-        return expressionTree(postfix).evalute();
-    }
-
-    public Node expressionTree(String postfix) {
-        var stack = new Stack<Node>();
-        var digit = "";
-        for (char ch : postfix.toCharArray()) {
-            if (isDigit(ch)) {
-                digit = digit.concat(String.valueOf(ch));
-            } else if (ch == ';') {
-                stack.push(Node.fromString(digit));
-                digit = "";
-            } else {
-                var node = Node.fromString(String.valueOf(ch));
-                if (node instanceof OperatorNode operator) {
-                    operator.setRight(stack.pop());
-                    operator.setLeft(stack.pop());
-                    stack.push(operator);
-                    digit = "";
-                }
-            }
-        }
-        return stack.pop();
-    }
-
-    public String infixToPostfix(String infix) {
-        var postfix = new StringBuilder();
-        var operatorStack = new Stack<Character>();
-        var digit = "";
-        for (int i = 0; i < infix.length(); i++) {
-            char ch = infix.charAt(i);
-            if (isDigit(ch)) {
-                digit = digit.concat(String.valueOf(ch));
-            } else {
-                if (!digit.isBlank())
-                    postfix.append(digit).append(";");
-                digit = "";
-
-                if (ch == '-' && (i == 0 || (!isDigit(infix.charAt(i - 1)) && infix.charAt(i - 1) != ')') || infix.charAt(i - 1) == '(')) {
-                    postfix.append("0").append(";");
-                }
-
-                while (!operatorStack.isEmpty() &&
-                        precedence(ch) != -1 &&
-                        precedence(operatorStack.peek()) >= precedence(ch)) {
-                    postfix.append(operatorStack.pop());
-                }
-
-                if (ch == ')') {
-                    char opTop;
-                    while (!operatorStack.isEmpty() && (opTop = operatorStack.pop()) != '(') {
-                        postfix.append(opTop);
-                    }
-                } else {
-                    operatorStack.push(ch);
-                }
-            }
-        }
-
-        if (!digit.isBlank())
-            postfix.append(digit).append(";");
-
-        while (!operatorStack.isEmpty())
-            postfix.append(operatorStack.pop());
-
-        return postfix.toString();
+    private boolean isDigit(char ch) {
+        return !OP_CHAR.contains(ch);
     }
 
     public int precedence(char ch) {
-        return switch (ch) {
+        return switch(ch) {
             case '^' -> 4;
             case '/', '*' -> 2;
             case '+', '-' -> 1;
@@ -165,9 +65,96 @@ class Solution {
         };
     }
 
-    public boolean isDigit(char ch) {
-        return ch != '^' && ch != '/' && ch != '+'
-                && ch != '-' && ch != '*' && ch != '(' && ch != ')' && ch != ';';
+    public String[] infixToPostfix(String infix) {
+        var postFix = new ArrayList<String>();
+        var operatorStack = new Stack<Character>();
+        var digit = "";
+        for(int i = 0; i < infix.length(); i++) {
+            char ch = infix.charAt(i);
+            if(isDigit(ch)) {
+                digit = digit.concat(String.valueOf(ch));
+            } else {
+                if (!digit.isBlank()) {
+                    postFix.add(digit);
+                }
+                digit = "";
+                if(ch == '-' && (i == 0 || (!isDigit(infix.charAt(i - 1)) && infix.charAt(i - 1) != ')') || infix.charAt(i - 1) == '(')) {
+                    postFix.add("0");
+                }
+
+                while(!operatorStack.isEmpty() && precedence(ch) != -1
+                        && precedence(operatorStack.peek()) >= precedence(ch)) {
+                    postFix.add(String.valueOf(operatorStack.pop()));
+                }
+
+                if(ch == ')') {
+                    char opTop;
+                    while(!operatorStack.isEmpty() && (opTop = operatorStack.pop()) != '(') {
+                        postFix.add(String.valueOf(opTop));
+                    }
+                } else {
+                    operatorStack.push(ch);
+                }
+            }
+        }
+
+        if(!digit.isBlank())
+            postFix.add(digit);
+
+        while(!operatorStack.isEmpty()) {
+            postFix.add(String.valueOf(operatorStack.pop()));
+        }
+
+        return postFix.toArray(new String[0]);
     }
 
+    public int calculate(String eq) {
+        eq = eq.trim();
+        eq = eq.replaceAll("\\s", "");
+
+        try {
+            return Integer.parseInt(eq);
+        } catch (NumberFormatException ex) {
+            // ignore
+        }
+
+        var op = infixToPostfix(eq);
+        System.out.println(Arrays.toString(op));
+        var stack = new Stack<Node>();
+        Arrays.stream(op).forEach(it -> {
+            var node = Node.fromString(it);
+            if(node instanceof OperatorNode operatorNode) {
+                operatorNode.setFirst(stack.pop());
+                operatorNode.setSecond(stack.pop());
+                stack.push(operatorNode);
+            } else {
+                stack.push(node);
+            }
+        });
+        return stack.pop().evaluate();
+    }
+    static class MulNode extends OperatorNode {
+        @Override
+        public int evaluate() {
+            return getSecond().evaluate() * getFirst().evaluate();
+        }
+    }
+
+    static class AddNode extends OperatorNode {
+        @Override
+        public int evaluate() {
+            return getSecond().evaluate() + getFirst().evaluate();
+        }
+    }
+
+    static class SubNode extends OperatorNode {
+        @Override
+        public int evaluate() {
+            return getSecond().evaluate() - getFirst().evaluate();
+        }
+    }
+
+    private static final Set<Character> OP_CHAR = Set.of(
+            '^', '+', '-', '/', '*', '(', ')'
+    );
 }
