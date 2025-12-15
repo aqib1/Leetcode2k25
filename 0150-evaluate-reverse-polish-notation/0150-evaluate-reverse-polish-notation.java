@@ -1,29 +1,96 @@
 class Solution {
-    private static final Set<String> OPERATORS = Set.of(
-            "+", "-", "*", "/"
-    );
+    interface Node {
+        int evalute();
 
-    public int evalRPN(String[] tokens) {
-        var stack = new Stack<Integer>();
-        Arrays.stream(tokens).forEach(
-                t -> {
-                    if(OPERATORS.contains(t)) {
-                        stack.push(performOperation(t, stack.pop(), stack.pop()));
-                    } else {
-                        stack.push(Integer.parseInt(t));
-                    }
-                });
-
-        return stack.pop();
+        static Node fromString(String str) {
+            return switch(str) {
+              case "/" -> new DivNode();
+              case "*" -> new MulNode();
+              case "-" -> new SubNode();
+              case "+" -> new AddNode();
+              default -> new NumericNode(str);
+            };
+        }
     }
 
-    private int performOperation(String t, int pop, int pop1) {
-        return switch (t) {
-            case "+" -> pop + pop1;
-            case "-" -> pop1 - pop;
-            case "*" -> pop * pop1;
-            case "/" -> pop1 / pop;
-            default -> throw new IllegalArgumentException("Operation is invalid");
-        };
+    static abstract class OperatorNode implements Node {
+        private Node left;
+        private Node right;
+
+        public Node getLeft() {
+            return left;
+        }
+
+        public void setLeft(Node left) {
+            this.left = left;
+        }
+
+        public Node getRight() {
+            return right;
+        }
+
+        public void setRight(Node right) {
+            this.right = right;
+        }
+    }
+
+    static class NumericNode implements Node {
+        private final String number;
+        public NumericNode(String number) {
+            this.number = number;
+        }
+
+        @Override
+        public int evalute() {
+            return Integer.parseInt(number);
+        }
+    }
+
+    static class DivNode extends OperatorNode {
+
+        @Override
+        public int evalute() {
+            return getLeft().evalute() / getRight().evalute();
+        }
+    }
+
+    static class MulNode extends OperatorNode {
+
+        @Override
+        public int evalute() {
+            return getLeft().evalute() * getRight().evalute();
+        }
+    }
+
+    static class AddNode extends OperatorNode {
+
+        @Override
+        public int evalute() {
+            return getLeft().evalute() + getRight().evalute();
+        }
+    }
+
+    static class SubNode extends OperatorNode {
+
+        @Override
+        public int evalute() {
+            return getLeft().evalute() - getRight().evalute();
+        }
+    }
+    
+        public int evalRPN(String[] tokens) {
+        var stack = new Stack<Node>();
+
+        Arrays.stream(tokens).forEach(it -> {
+            var node = Node.fromString(it);
+            if(node instanceof OperatorNode operatorNode) {
+                operatorNode.setRight(stack.pop());
+                operatorNode.setLeft(stack.pop());
+                stack.push(operatorNode);
+            } else {
+                stack.push(node);
+            }
+        });
+        return stack.pop().evalute();
     }
 }
