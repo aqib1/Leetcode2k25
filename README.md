@@ -207,6 +207,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/aqib1/Leetcode2k25/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0173-binary-search-tree-iterator](https://github.com/aqib1/Leetcode2k25/tree/master/0173-binary-search-tree-iterator) |
+| [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -252,6 +253,7 @@
 | [0205-isomorphic-strings](https://github.com/aqib1/Leetcode2k25/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/aqib1/Leetcode2k25/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/aqib1/Leetcode2k25/tree/master/0383-ransom-note) |
@@ -292,6 +294,7 @@
 | [0013-roman-to-integer](https://github.com/aqib1/Leetcode2k25/tree/master/0013-roman-to-integer) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/aqib1/Leetcode2k25/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
+| [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
@@ -306,6 +309,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
