@@ -1,36 +1,35 @@
 class Solution {
     interface Node {
-        int evalute();
-
-        static Node fromString(String str) {
-            return switch(str) {
-              case "/" -> new DivNode();
-              case "*" -> new MulNode();
-              case "-" -> new SubNode();
-              case "+" -> new AddNode();
-              default -> new NumericNode(str);
+        int evaluate();
+        static Node fromString(String value) {
+            return switch(value) {
+                case "/" -> new DivNode();
+                case "*" -> new MulNode();
+                case "+" -> new AddNode();
+                case "-" -> new SubNode();
+                default -> new NumericNode(value);
             };
         }
     }
 
-    static abstract class OperatorNode implements Node {
-        private Node left;
-        private Node right;
+    abstract static class OperatorNode implements Node {
+        private Node first;
+        private Node second;
 
-        public Node getLeft() {
-            return left;
+        public Node getFirst() {
+            return first;
         }
 
-        public void setLeft(Node left) {
-            this.left = left;
+        public void setFirst(Node first) {
+            this.first = first;
         }
 
-        public Node getRight() {
-            return right;
+        public Node getSecond() {
+            return second;
         }
 
-        public void setRight(Node right) {
-            this.right = right;
+        public void setSecond(Node second) {
+            this.second = second;
         }
     }
 
@@ -41,56 +40,52 @@ class Solution {
         }
 
         @Override
-        public int evalute() {
+        public int evaluate() {
             return Integer.parseInt(number);
         }
     }
 
     static class DivNode extends OperatorNode {
-
         @Override
-        public int evalute() {
-            return getLeft().evalute() / getRight().evalute();
+        public int evaluate() {
+            return getSecond().evaluate() / getFirst().evaluate();
         }
     }
 
     static class MulNode extends OperatorNode {
-
         @Override
-        public int evalute() {
-            return getLeft().evalute() * getRight().evalute();
+        public int evaluate() {
+            return getSecond().evaluate() * getFirst().evaluate();
         }
     }
 
     static class AddNode extends OperatorNode {
-
         @Override
-        public int evalute() {
-            return getLeft().evalute() + getRight().evalute();
+        public int evaluate() {
+            return getSecond().evaluate() + getFirst().evaluate();
         }
     }
 
     static class SubNode extends OperatorNode {
-
         @Override
-        public int evalute() {
-            return getLeft().evalute() - getRight().evalute();
+        public int evaluate() {
+            return getSecond().evaluate() - getFirst().evaluate();
         }
     }
-    
-        public int evalRPN(String[] tokens) {
-        var stack = new Stack<Node>();
 
+    // O(N) and O(N)
+    public int evalRPN(String[] tokens) {
+        var stack = new Stack<Node>();
         Arrays.stream(tokens).forEach(it -> {
-            var node = Node.fromString(it);
-            if(node instanceof OperatorNode operatorNode) {
-                operatorNode.setRight(stack.pop());
-                operatorNode.setLeft(stack.pop());
+            var operator = Node.fromString(it);
+            if(operator instanceof OperatorNode operatorNode) {
+                operatorNode.setFirst(stack.pop());
+                operatorNode.setSecond(stack.pop());
                 stack.push(operatorNode);
             } else {
-                stack.push(node);
+                stack.push(operator);
             }
         });
-        return stack.pop().evalute();
+        return stack.pop().evaluate();
     }
 }
