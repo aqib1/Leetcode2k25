@@ -41,6 +41,7 @@
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/aqib1/Leetcode2k25/tree/master/1127-last-stone-weight) |
+| [1470-shuffle-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/1470-shuffle-the-array) |
 | [1929-concatenation-of-array](https://github.com/aqib1/Leetcode2k25/tree/master/1929-concatenation-of-array) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/aqib1/Leetcode2k25/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
