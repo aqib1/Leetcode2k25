@@ -1,16 +1,13 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        var deltaByIndex = new HashMap<Integer, Integer>();
-
+        var countMap = new HashMap<Integer, Integer>();
         for(int i = 0; i < nums.length; i++) {
-            int delta = target - nums[i];
-            if(deltaByIndex.containsKey(delta)) {
-                return new int[] {i, deltaByIndex.get(delta)};
+            int complement = target - nums[i];
+            if(countMap.containsKey(complement)) {
+                return new int[] { countMap.get(complement), i };
             }
-
-            deltaByIndex.put(nums[i], i);
+            countMap.put(nums[i], i);
         }
-
         return new int[] {};
     }
 }
