@@ -1,19 +1,23 @@
 class Solution {
-    // Time complexity O(n + m) and space O(1)
-    public void merge(int[] arr, int m, int[] arr1, int n) {
-       int k = m + n - 1;
-        int i = m - 1;
-        int j = n - 1;
-
-        while(k >= 0) {
-            if(j < 0)
-                break;
-
-            if(i >= 0 && arr[i] >= arr1[j]) {
-                arr[k--] = arr[i--];
-            } else {
-                arr[k--] = arr1[j--];
+    public void merge(int[] num1, int m, int[] num2, int n) {
+        if(num2.length == 0)
+                return;
+            int j = 0, i = 0;
+            while(i < m && j < n) {
+                if(num2[j] < num1[i]) {
+                    for(int l = m; l > i; l--) {
+                        num1[l] = num1[l - 1];
+                    }
+                    num1[i] = num2[j];
+                    m++;
+                    j++;
+                }
+                i++;
             }
-        }
+
+            while(j < n) {
+                num1[i++] = num2[j++];
+            }
+
     }
 }
