@@ -1,26 +1,26 @@
 class Solution {
-    // Time complexity O(n) and space O(n)
     public int trap(int[] height) {
-        if(height == null || height.length == 0)
+        if (height.length == 0)
             return 0;
+
+        var trap = 0;
         var maxFromLeft = new int[height.length];
         var maxFromRight = new int[height.length];
-        var water = 0;
 
         maxFromLeft[0] = height[0];
-        for(int left = 1; left < height.length; left++) {
-            maxFromLeft[left] = Math.max(maxFromLeft[left -1], height[left]);
+        for (int i = 1; i < maxFromLeft.length; i++) {
+            maxFromLeft[i] = Math.max(maxFromLeft[i - 1], height[i]);
         }
 
-        maxFromRight[height.length - 1] = height[height.length - 1];
-        for(int right = height.length - 2; right >= 0; right--) {
-            maxFromRight[right] = Math.max(maxFromRight[right + 1], height[right]);
+        maxFromRight[maxFromRight.length - 1] = height[maxFromRight.length - 1];
+        for (int j = maxFromRight.length - 2; j >= 0; j--) {
+            maxFromRight[j] = Math.max(height[j], maxFromRight[j + 1]);
         }
 
-        for(int i = 0; i < height.length; i++) {
-            water += Math.min(maxFromLeft[i], maxFromRight[i]) - height[i];
+        for (int k = 0; k < height.length; k++) {
+            trap += (Math.min(maxFromLeft[k], maxFromRight[k]) - height[k]);
         }
 
-        return water;
+        return trap;
     }
 }
