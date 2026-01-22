@@ -1,29 +1,48 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        var merged = new int[nums1.length + nums2.length];
-        int i = 0, j = 0, k = 0;
+        if (nums1.length > nums2.length) {
+            var tmp = nums1;
+            nums1 = nums2;
+            nums2 = tmp;
+        }
 
-        while (i < nums1.length && j < nums2.length) {
-            if (nums1[i] < nums2[j]) {
-                merged[k++] = nums1[i++];
+        int min = 0;
+        int max = nums1.length;
+
+        int x = 0, y = 0;
+        boolean isOdd = (nums1.length + nums2.length) % 2 != 0;
+        double median = 0.0;
+
+        while (min <= max) {
+            x = (min + max) / 2;
+            y = ((nums1.length + nums2.length + 1) / 2) - x;
+
+            if (x > 0 && y < nums2.length && nums1[x - 1] > nums2[y]) {
+                max = x - 1;
+            } else if (y > 0 && x < nums1.length && nums2[y - 1] > nums1[x]) {
+                min = x + 1;
             } else {
-                merged[k++] = nums2[j++];
+                if (x == 0) {
+                    median = nums2[y - 1];
+                } else if (y == 0) {
+                    median = nums1[x - 1];
+                } else {
+                    median = Math.max(nums1[x - 1], nums2[y - 1]);
+                }
+
+                break;
             }
         }
 
-        while (i < nums1.length) {
-            merged[k++] = nums1[i++];
+        if (isOdd)
+            return median;
+        if (x == nums1.length) {
+            return (median + nums2[y]) / 2.0;
         }
-
-        while (j < nums2.length) {
-            merged[k++] = nums2[j++];
+        if (y == nums2.length) {
+            return (median + nums1[x]) / 2.0;
         }
+        return (median + Math.min(nums1[x], nums2[y])) / 2.0;
 
-        int mid = merged.length / 2;
-
-        if (merged.length % 2 == 0)
-            return (merged[mid - 1] + merged[mid]) / 2.0;
-        else
-            return merged[mid];
     }
 }
