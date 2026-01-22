@@ -32,6 +32,7 @@
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [0494-target-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0494-target-sum) |
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
+| [0645-set-mismatch](https://github.com/aqib1/Leetcode2k25/tree/master/0645-set-mismatch) |
 | [0648-replace-words](https://github.com/aqib1/Leetcode2k25/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 | [0695-max-area-of-island](https://github.com/aqib1/Leetcode2k25/tree/master/0695-max-area-of-island) |
@@ -57,6 +58,7 @@
 | [0190-reverse-bits](https://github.com/aqib1/Leetcode2k25/tree/master/0190-reverse-bits) |
 | [0338-counting-bits](https://github.com/aqib1/Leetcode2k25/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/aqib1/Leetcode2k25/tree/master/0389-find-the-difference) |
+| [0645-set-mismatch](https://github.com/aqib1/Leetcode2k25/tree/master/0645-set-mismatch) |
 ## Sliding Window
 |  |
 | ------- |
@@ -76,6 +78,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0389-find-the-difference](https://github.com/aqib1/Leetcode2k25/tree/master/0389-find-the-difference) |
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
+| [0645-set-mismatch](https://github.com/aqib1/Leetcode2k25/tree/master/0645-set-mismatch) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
@@ -290,6 +293,7 @@
 | [0383-ransom-note](https://github.com/aqib1/Leetcode2k25/tree/master/0383-ransom-note) |
 | [0389-find-the-difference](https://github.com/aqib1/Leetcode2k25/tree/master/0389-find-the-difference) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0645-set-mismatch](https://github.com/aqib1/Leetcode2k25/tree/master/0645-set-mismatch) |
 | [0648-replace-words](https://github.com/aqib1/Leetcode2k25/tree/master/0648-replace-words) |
 | [0677-map-sum-pairs](https://github.com/aqib1/Leetcode2k25/tree/master/0677-map-sum-pairs) |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
