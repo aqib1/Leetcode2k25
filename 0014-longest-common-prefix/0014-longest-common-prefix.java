@@ -1,4 +1,5 @@
 class Solution {
+
     static class Trie {
         private static final int LIMIT = 26;
         private final Trie[] nodes;
@@ -40,10 +41,10 @@ class Solution {
         public boolean startsWith(String word) {
             var current = this;
 
-            for(char ch: word.toCharArray()) {
+            for (char ch : word.toCharArray()) {
                 int key = ch - 'a';
 
-                if(current.nodes[key] == null)
+                if (current.nodes[key] == null)
                     return false;
                 current = current.nodes[key];
             }
@@ -55,17 +56,17 @@ class Solution {
             var builder = new StringBuilder();
             var current = this;
 
-            while(true) {
+            while (true) {
                 var childCount = 0;
                 var index = -1;
-                for(int i = 0; i < LIMIT; i++) {
-                    if(current.nodes[i] != null) {
+                for (int i = 0; i < LIMIT; i++) {
+                    if (current.nodes[i] != null) {
                         childCount++;
                         index = i;
                     }
                 }
 
-                if(childCount != 1 || current.end > 0)
+                if (childCount != 1 || current.end > 0)
                     break;
 
                 current = current.nodes[index];
@@ -78,7 +79,7 @@ class Solution {
 
     public String longestCommonPrefix(String[] strs) {
         var trie = new Trie();
-        for(var str: strs) {
+        for (var str : strs) {
             trie.insert(str);
         }
 
