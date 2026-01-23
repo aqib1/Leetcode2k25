@@ -4,19 +4,20 @@ class Solution {
     // Space complexity O(n)
     public List<List<String>> groupAnagrams(String[] strs) {
         var anagramMap = new HashMap<String, List<String>>();
-
         for (var st : strs) {
-            var key = st.toCharArray();
-            Arrays.sort(key);
-            var sorted = new String(key);
-
-            if (anagramMap.containsKey(sorted)) {
-                anagramMap.get(sorted).add(st);
+            var key = getSortedKey(st);
+            if (anagramMap.containsKey(key)) {
+                anagramMap.get(key).add(st);
             } else {
-                anagramMap.put(sorted, new ArrayList<>(List.of(st)));
+                anagramMap.put(key, new ArrayList<>(List.of(st)));
             }
         }
-
         return anagramMap.values().stream().toList();
+    }
+
+    private static String getSortedKey(String st) {
+        var key = st.toCharArray();
+        Arrays.sort(key);
+        return new String(key);
     }
 }
