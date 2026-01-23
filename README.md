@@ -7,6 +7,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/aqib1/Leetcode2k25/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aqib1/Leetcode2k25/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/aqib1/Leetcode2k25/tree/master/0027-remove-element) |
 | [0037-sudoku-solver](https://github.com/aqib1/Leetcode2k25/tree/master/0037-sudoku-solver) |
@@ -262,6 +263,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/aqib1/Leetcode2k25/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/aqib1/Leetcode2k25/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/aqib1/Leetcode2k25/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/aqib1/Leetcode2k25/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/aqib1/Leetcode2k25/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/aqib1/Leetcode2k25/tree/master/0071-simplify-path) |
@@ -441,6 +443,7 @@
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/aqib1/Leetcode2k25/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/aqib1/Leetcode2k25/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0648-replace-words](https://github.com/aqib1/Leetcode2k25/tree/master/0648-replace-words) |
