@@ -1,4 +1,7 @@
 class Solution {
+
+    // Time complexity O(n*KLogK) where n are strs and k are character in each string.
+    // Space complexity O(n)
     public List<List<String>> groupAnagrams(String[] strs) {
         var anagramMap = new HashMap<String, List<String>>();
 
