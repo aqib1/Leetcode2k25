@@ -1,26 +1,19 @@
 class Solution {
-    // time complexity ON(logN) and space O(N)
     public List<List<String>> groupAnagrams(String[] strs) {
-        // Base condition
-        if(strs == null || strs.length == 0)
-            return new ArrayList<>();
-            
-        var groupAnagrams = new HashMap<String, List<String>>();
-        for(var str: strs) {
-            var key = getSortedKey(str);
-            if(groupAnagrams.containsKey(key)) {
-                groupAnagrams.get(key).add(str);
+        var anagramMap = new HashMap<String, List<String>>();
+
+        for (var st : strs) {
+            var key = st.toCharArray();
+            Arrays.sort(key);
+            var sorted = new String(key);
+
+            if (anagramMap.containsKey(sorted)) {
+                anagramMap.get(sorted).add(st);
             } else {
-                groupAnagrams.put(key, new ArrayList<>(List.of(str)));
+                anagramMap.put(sorted, new ArrayList<>(List.of(st)));
             }
         }
 
-        return new ArrayList<>(groupAnagrams.values());
-    }
-
-    private String getSortedKey(String str) {
-        var data = str.toCharArray();
-        Arrays.sort(data);
-        return new String(data);
+        return anagramMap.values().stream().toList();
     }
 }
