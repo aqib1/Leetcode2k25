@@ -1,23 +1,21 @@
 class Solution {
     public int compress(char[] chars) {
         int count = 0;
-        int pointer = 0;
-
+        int ptr = 0;
         for (int i = 0; i < chars.length;) {
-            char current = chars[i];
-            while (i < chars.length && chars[i] == current) {
+            var curr = chars[i];
+            chars[ptr++] = curr;
+            while (i < chars.length && chars[i] == curr) {
                 count++;
                 i++;
             }
-            chars[pointer++] = current;
-            if(count > 1) {
+            if (count > 1) {
                 for (char ch : String.valueOf(count).toCharArray()) {
-                    chars[pointer++] = ch;
+                    chars[ptr++] = ch;
                 }
             }
             count = 0;
         }
-
-        return pointer;
+        return ptr;
     }
 }
