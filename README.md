@@ -14,6 +14,7 @@
 | [0042-trapping-rain-water](https://github.com/aqib1/Leetcode2k25/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/aqib1/Leetcode2k25/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/aqib1/Leetcode2k25/tree/master/0051-n-queens) |
+| [0056-merge-intervals](https://github.com/aqib1/Leetcode2k25/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/aqib1/Leetcode2k25/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/aqib1/Leetcode2k25/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -72,6 +73,7 @@
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/aqib1/Leetcode2k25/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/aqib1/Leetcode2k25/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/aqib1/Leetcode2k25/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aqib1/Leetcode2k25/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/aqib1/Leetcode2k25/tree/master/0148-sort-list) |
