@@ -28,6 +28,7 @@
 | [0217-contains-duplicate](https://github.com/aqib1/Leetcode2k25/tree/master/0217-contains-duplicate) |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
 | [0221-maximal-square](https://github.com/aqib1/Leetcode2k25/tree/master/0221-maximal-square) |
+| [0238-product-of-array-except-self](https://github.com/aqib1/Leetcode2k25/tree/master/0238-product-of-array-except-self) |
 | [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -471,6 +472,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/aqib1/Leetcode2k25/tree/master/0238-product-of-array-except-self) |
 | [0713-subarray-product-less-than-k](https://github.com/aqib1/Leetcode2k25/tree/master/0713-subarray-product-less-than-k) |
 ## Union Find
 |  |
