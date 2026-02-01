@@ -1,5 +1,7 @@
 class Solution {
 
+    // Time complexity O(M*KLogk) where N is numbers of strs and K avg length of a string
+    // Space complexity O(N*M)
     public List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null || strs.length == 0)
             return List.of();
