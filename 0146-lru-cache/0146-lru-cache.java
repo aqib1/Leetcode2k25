@@ -1,4 +1,4 @@
-class LRUCache {
+public class LRUCache {
     private final Map<Integer, Node> map;
     private final Node head;
     private final Node tail;
@@ -13,15 +13,30 @@ class LRUCache {
         this.tail.prev = this.head;
     }
 
-        public int get(int key) {
-        int value = -1;
-        if(map.containsKey(key)) {
+    public int get(int key) {
+        var value = -1;
+
+        if (map.containsKey(key)) {
             var node = map.get(key);
             value = node.value;
             removeNode(node);
             addNode(node);
         }
+
         return value;
+    }
+
+    private void addNode(Node node) {
+        tail.prev.next = node;
+        node.prev = tail.prev;
+        node.next = tail;
+        tail.prev = node;
+    }
+
+    private void removeNode(Node node) {
+        var pre = node.prev;
+        pre.next = node.next;
+        node.next.prev = pre;
     }
 
     public void put(int key, int value) {
@@ -32,26 +47,14 @@ class LRUCache {
             addNode(node);
         } else {
             if (map.size() == capacity) {
-                map.remove(head.next.key);
-                removeNode(head.next);
+                var next = head.next;
+                removeNode(next);
+                map.remove(next.key);
             }
             var node = new Node(key, value);
-            this.map.put(key, node);
             addNode(node);
+            map.put(key, node);
         }
-    }
-
-    private void removeNode(Node node) {
-        var prev = node.prev;
-        prev.next = node.next;
-        node.next.prev = prev;
-    }
-
-    private void addNode(Node node) {
-        tail.prev.next = node;
-        node.prev = tail.prev;
-        node.next = tail;
-        tail.prev = node;
     }
 
     static class Node {
@@ -60,21 +63,13 @@ class LRUCache {
         Node next;
         Node prev;
 
-        public Node() {
+        Node() {
 
         }
 
-        public Node(int key, int value) {
+        Node(int key, int value) {
             this.key = key;
             this.value = value;
         }
     }
-
 }
-
-/**
- * Your LRUCache object will be instantiated and called as such:
- * LRUCache obj = new LRUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
- */
