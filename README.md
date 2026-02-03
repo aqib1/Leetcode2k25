@@ -35,6 +35,7 @@
 | [0485-max-consecutive-ones](https://github.com/aqib1/Leetcode2k25/tree/master/0485-max-consecutive-ones) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [0494-target-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0494-target-sum) |
+| [0523-continuous-subarray-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/aqib1/Leetcode2k25/tree/master/0560-subarray-sum-equals-k) |
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
 | [0645-set-mismatch](https://github.com/aqib1/Leetcode2k25/tree/master/0645-set-mismatch) |
@@ -310,6 +311,7 @@
 | [0383-ransom-note](https://github.com/aqib1/Leetcode2k25/tree/master/0383-ransom-note) |
 | [0389-find-the-difference](https://github.com/aqib1/Leetcode2k25/tree/master/0389-find-the-difference) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0523-continuous-subarray-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/aqib1/Leetcode2k25/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/aqib1/Leetcode2k25/tree/master/0645-set-mismatch) |
 | [0648-replace-words](https://github.com/aqib1/Leetcode2k25/tree/master/0648-replace-words) |
@@ -328,6 +330,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/aqib1/Leetcode2k25/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
 | [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
+| [0523-continuous-subarray-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
@@ -475,6 +478,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/aqib1/Leetcode2k25/tree/master/0238-product-of-array-except-self) |
+| [0523-continuous-subarray-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/aqib1/Leetcode2k25/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/aqib1/Leetcode2k25/tree/master/0713-subarray-product-less-than-k) |
 ## Union Find
