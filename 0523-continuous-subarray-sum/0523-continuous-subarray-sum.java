@@ -1,4 +1,6 @@
 class Solution {
+    
+    // Time complexity O(n) and Space complexity O(n)
     public boolean checkSubarraySum(int[] nums, int k) {
         var modIndexMap = new HashMap<Integer, Integer>();
         var prefixMode = 0;
