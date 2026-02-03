@@ -1,20 +1,19 @@
 class Solution {
-    
+
     // Time complexity O(n) and Space complexity O(n)
     public boolean checkSubarraySum(int[] nums, int k) {
-        var modIndexMap = new HashMap<Integer, Integer>();
-        var prefixMode = 0;
+        var prefixModMap = new HashMap<Integer, Integer>();
+        var prefixMod = 0;
+        prefixModMap.put(0, -1);
 
-        modIndexMap.put(0, -1);
         for (int i = 0; i < nums.length; i++) {
-            prefixMode = (prefixMode + nums[i]) % k;
-
-            if (modIndexMap.containsKey(prefixMode)) {
-                if (i - modIndexMap.get(prefixMode) > 1) {
+            prefixMod = (nums[i] + prefixMod) % k;
+            if (prefixModMap.containsKey(prefixMod)) {
+                if (i - prefixModMap.get(prefixMod) > 1)
                     return true;
-                }
-            } else
-                modIndexMap.put(prefixMode, i);
+            } else {
+                prefixModMap.put(prefixMod, i);
+            }
         }
         return false;
     }
