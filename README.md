@@ -229,6 +229,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/aqib1/Leetcode2k25/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0173-binary-search-tree-iterator](https://github.com/aqib1/Leetcode2k25/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
+| [0901-online-stock-span](https://github.com/aqib1/Leetcode2k25/tree/master/0901-online-stock-span) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -395,6 +396,7 @@
 | [0677-map-sum-pairs](https://github.com/aqib1/Leetcode2k25/tree/master/0677-map-sum-pairs) |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/aqib1/Leetcode2k25/tree/master/0817-design-hashmap) |
+| [0901-online-stock-span](https://github.com/aqib1/Leetcode2k25/tree/master/0901-online-stock-span) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2034-stock-price-fluctuation](https://github.com/aqib1/Leetcode2k25/tree/master/2034-stock-price-fluctuation) |
 ## Backtracking
@@ -413,6 +415,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/aqib1/Leetcode2k25/tree/master/0042-trapping-rain-water) |
+| [0901-online-stock-span](https://github.com/aqib1/Leetcode2k25/tree/master/0901-online-stock-span) |
 ## Matrix
 |  |
 | ------- |
@@ -496,5 +499,6 @@
 ## Data Stream
 |  |
 | ------- |
+| [0901-online-stock-span](https://github.com/aqib1/Leetcode2k25/tree/master/0901-online-stock-span) |
 | [2034-stock-price-fluctuation](https://github.com/aqib1/Leetcode2k25/tree/master/2034-stock-price-fluctuation) |
 <!---LeetCode Topics End-->
