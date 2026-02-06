@@ -1,75 +1,73 @@
 public class LRUCache {
-    private final Map<Integer, Node> map;
+
+    private final Map<Integer, Node> cacheMap;
+    private final int capacity;
     private final Node head;
     private final Node tail;
-    private final int capacity;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
-        this.map = new HashMap<>();
+        this.cacheMap = new HashMap<>();
         this.head = new Node();
         this.tail = new Node();
-        this.head.next = this.tail;
-        this.tail.prev = this.head;
+        head.next = tail;
+        tail.prev = head;
     }
 
     public int get(int key) {
         var value = -1;
-
-        if (map.containsKey(key)) {
-            var node = map.get(key);
-            value = node.value;
-            removeNode(node);
-            addNode(node);
+        if (cacheMap.containsKey(key)) {
+            var current = cacheMap.get(key);
+            value = current.value;
+            removeNode(current);
+            addNode(current);
         }
-
         return value;
     }
 
-    private void addNode(Node node) {
-        tail.prev.next = node;
-        node.prev = tail.prev;
-        node.next = tail;
-        tail.prev = node;
+    private void addNode(Node current) {
+        tail.prev.next = current;
+        current.prev = tail.prev;
+        current.next = tail;
+        tail.prev = current;
     }
 
-    private void removeNode(Node node) {
-        var pre = node.prev;
-        pre.next = node.next;
-        node.next.prev = pre;
+    private void removeNode(Node current) {
+        var prev = current.prev;
+        prev.next = current.next;
+        current.next.prev = prev;
     }
 
     public void put(int key, int value) {
-        if (map.containsKey(key)) {
-            var node = map.get(key);
-            removeNode(node);
-            node.value = value;
-            addNode(node);
+        if (cacheMap.containsKey(key)) {
+            var current = cacheMap.get(key);
+            removeNode(current);
+            current.value = value;
+            addNode(current);
         } else {
-            if (map.size() == capacity) {
-                var next = head.next;
-                removeNode(next);
-                map.remove(next.key);
+            if (cacheMap.size() == capacity) {
+                cacheMap.remove(head.next.key);
+                removeNode(head.next);
             }
             var node = new Node(key, value);
+            cacheMap.put(key, node);
             addNode(node);
-            map.put(key, node);
         }
     }
 
     static class Node {
-        int value;
         int key;
+        int value;
         Node next;
         Node prev;
 
-        Node() {
-
+        public Node() {
         }
 
-        Node(int key, int value) {
+        public Node(int key, int value) {
             this.key = key;
             this.value = value;
         }
     }
+
 }
