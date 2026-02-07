@@ -6,20 +6,24 @@ class Solution {
         int ptr = 0;
         int count = 0;
 
-        for (int i = 0; i < data.length;) {
-            var ch = data[i];
-            data[ptr++] = ch;
-            while (i < data.length && ch == data[i]) {
+        for(int i = 0; i < data.length;) {
+            var cr = data[i];
+            data[ptr++] = cr;
+
+            while(i < data.length && cr == data[i]) {
                 count++;
                 i++;
             }
-            if (count > 1) {
-                for (var n : String.valueOf(count).toCharArray()) {
-                    data[ptr++] = n;
+
+            if(count > 1) {
+                for(var ch: String.valueOf(count).toCharArray()) {
+                    data[ptr++] = ch;
                 }
             }
+
             count = 0;
         }
+
         return ptr;
     }
 }
