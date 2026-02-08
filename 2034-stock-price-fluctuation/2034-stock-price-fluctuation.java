@@ -4,6 +4,8 @@ class StockPrice {
     private final Queue<StockRecord> minHeap;
     private final Queue<StockRecord> maxHeap;
 
+    // Time complexity ON(LogN)
+    // Space complexity O(N)
     public StockPrice() {
         maxTimestamp = Integer.MIN_VALUE;
         stockMap = new HashMap<>();
