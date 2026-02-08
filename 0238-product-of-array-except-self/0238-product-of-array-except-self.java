@@ -1,4 +1,7 @@
 class Solution {
+
+    // Time complexity O(n)
+    // Space complexity O(n)
     public int[] productExceptSelf(int[] nums) {
        int [] result = new int[nums.length];
 
