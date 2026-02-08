@@ -1,109 +1,66 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
-
-class BTMerger {
-	private Node root;
-
-	public void add(int[] intervel) {
-		if (root == null)
-			addRoot(intervel);
-		else
-			addChild(root, intervel);
-	}
-
-	private void addRoot(int[] intervel) {
-		this.root = new Node(intervel);
-
-	}
-
-	// [[1,3],[5, 8],[2,6],[8,10],[15,18]]
-	private void addChild(Node node, int[] intervel) {
-		if (intervel[1] < node.getIntervel()[0]) {
-			// move left
-			if (node.left == null)
-				node.left = new Node(intervel);
-			else
-				addChild(node.left, intervel);
-		} else if (intervel[0] > node.getIntervel()[1]) {
-			// move right
-			if (node.right == null)
-				node.right = new Node(intervel);
-			else
-				addChild(node.right, intervel);
-		} else {
-			node.getIntervel()[0] = Math.min(intervel[0], node.getIntervel()[0]);
-			node.getIntervel()[1] = Math.max(intervel[1], node.getIntervel()[1]);
-		}
-	}
-
-	public List<int[]> getIntervelInOrder() {
-		List<int[]> data = new ArrayList<>();
-		prepareResults(root, data);
-
-		return data;
-	}
-
-	private void prepareResults(Node root, List<int[]> data) {
-		if (root == null)
-			return;
-
-		prepareResults(root.left, data);
-		data.add(root.getIntervel());
-		prepareResults(root.right, data);
-
-	}
-
-	class Node {
-		private Node left;
-		private Node right;
-		private int[] intervel;
-
-		public Node() {
-
-		}
-
-		public Node(int[] intervel) {
-			this.intervel = intervel;
-		}
-
-		public int[] getIntervel() {
-			return intervel;
-		}
-
-		public Node getLeft() {
-			return left;
-		}
-
-		public Node getRight() {
-			return right;
-		}
-
-		public void setIntervel(int[] intervel) {
-			this.intervel = intervel;
-		}
-
-		public void setLeft(Node left) {
-			this.left = left;
-		}
-
-		public void setRight(Node right) {
-			this.right = right;
-		}
-	}
-}
 class Solution {
-public int[][] merge(int[][] intervals) {
-		Collections.sort(Arrays.asList(intervals), (a, b) -> Integer.compare(a[0], b[0]));
-		BTMerger btMerger = new BTMerger();
-		for (int[] d : intervals) {
-			btMerger.add(d);
-		}
-		List<int[]> result = btMerger.getIntervelInOrder();
-		return result.toArray(new int[result.size()][]);
-	}
+    static class Node {
+        Node left;
+        Node right;
+        int[] interval;
 
+        Node() {
 
+        }
+
+        Node(int[] interval) {
+            this.interval = interval;
+        }
+    }
+
+    Node root;
+
+    void insert(int[] interval) {
+        if (root == null)
+            root = new Node(interval);
+        else
+            addChild(root, interval);
+    }
+
+    void addChild(Node root, int[] interval) {
+        if (interval[1] < root.interval[0]) {
+            if (root.left == null) {
+                root.left = new Node(interval);
+            } else
+                addChild(root.left, interval);
+        } else if (interval[0] > root.interval[1]) {
+            if (root.right == null) {
+                root.right = new Node(interval);
+            } else {
+                addChild(root.right, interval);
+            }
+        } else {
+            root.interval[0] = Math.min(root.interval[0], interval[0]);
+            root.interval[1] = Math.max(root.interval[1], interval[1]);
+        }
+    }
+
+    int[][] inOrder() {
+        List<int[]> inOrder = new ArrayList<>();
+        inOrder(inOrder, root);
+        return inOrder.toArray(new int[inOrder.size()][]);
+    }
+
+    void inOrder(List<int[]> inOrder, Node root) {
+        if(root == null)
+            return;
+
+        inOrder(inOrder, root.left);
+        inOrder.add(root.interval);
+        inOrder(inOrder, root.right);
+    }
+
+    public int[][] merge(int[][] intervals) {
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+        for(var interval: intervals) {
+            insert(interval);
+        }
+
+        return inOrder();
+    }
 }
