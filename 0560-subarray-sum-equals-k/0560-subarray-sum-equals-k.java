@@ -1,4 +1,7 @@
 class Solution {
+
+    // Time complexity O(n)
+    // Space complexity O(n)
     public int subarraySum(int[] nums, int k) {
        var prefixSum = 0;
        var count = 0;
