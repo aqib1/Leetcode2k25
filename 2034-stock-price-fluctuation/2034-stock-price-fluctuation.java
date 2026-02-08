@@ -1,52 +1,52 @@
 class StockPrice {
-    private int maxTimestamp = Integer.MIN_VALUE;
+    private int maxTimestamp;
+    private final Map<Integer, StockRecord> stockMap;
     private final Queue<StockRecord> minHeap;
     private final Queue<StockRecord> maxHeap;
-    private final Map<Integer, Integer> timestampToPrice;
 
     public StockPrice() {
-        this.timestampToPrice = new HashMap<>();
-        this.minHeap = new PriorityQueue<>(Comparator.comparing(StockRecord::price));
-        this.maxHeap = new PriorityQueue<>(
-                (a, b) ->
-                        Integer.compare(b.price(), a.price())
-        );
+        maxTimestamp = Integer.MIN_VALUE;
+        stockMap = new HashMap<>();
+        minHeap = new PriorityQueue<>(Comparator.comparing(StockRecord::price));
+        maxHeap = new PriorityQueue<>((a, b) -> Integer.compare(b.price, a.price));
     }
-    
+
     public void update(int timestamp, int price) {
-        this.maxTimestamp = Math.max(maxTimestamp, timestamp);
-        this.minHeap.add(new StockRecord(timestamp, price));
-        this.maxHeap.add(new StockRecord(timestamp, price));
-        this.timestampToPrice.put(timestamp, price);
+        maxTimestamp = Math.max(maxTimestamp, timestamp);
+        var stockRecord = new StockRecord(timestamp, price);
+        stockMap.put(timestamp, stockRecord);
+        minHeap.offer(stockRecord);
+        maxHeap.offer(stockRecord);
     }
 
     public int current() {
-        return this.timestampToPrice.get(maxTimestamp);
+        return stockMap.get(maxTimestamp).price;
     }
 
     public int maximum() {
-        if(maxHeap.isEmpty())
+        if (maxHeap.isEmpty())
             return -1;
 
-        while(maxHeap.peek().price != timestampToPrice.get(maxHeap.peek().timestamp)) {
+        while (!maxHeap.isEmpty() && maxHeap.peek().price != stockMap.get(maxHeap.peek().timestamp).price) {
             maxHeap.poll();
         }
 
-        return maxHeap.peek().price;
+        return maxHeap.isEmpty() ? -1 : maxHeap.peek().price;
     }
 
     public int minimum() {
-        if(minHeap.isEmpty())
+        if (minHeap.isEmpty())
             return -1;
 
-        while(minHeap.peek().price != timestampToPrice.get(minHeap.peek().timestamp)) {
+        while (!minHeap.isEmpty() && minHeap.peek().price != stockMap.get(minHeap.peek().timestamp).price) {
             minHeap.poll();
         }
 
-        return minHeap.peek().price;
+        return minHeap.isEmpty() ? -1 : minHeap.peek().price;
     }
 
     record StockRecord(int timestamp, int price) {
+
     }
 }
 
