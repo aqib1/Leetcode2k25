@@ -501,4 +501,8 @@
 | ------- |
 | [0901-online-stock-span](https://github.com/aqib1/Leetcode2k25/tree/master/0901-online-stock-span) |
 | [2034-stock-price-fluctuation](https://github.com/aqib1/Leetcode2k25/tree/master/2034-stock-price-fluctuation) |
+## Database
+|  |
+| ------- |
+| [1068-product-sales-analysis-i](https://github.com/aqib1/Leetcode2k25/tree/master/1068-product-sales-analysis-i) |
 <!---LeetCode Topics End-->
