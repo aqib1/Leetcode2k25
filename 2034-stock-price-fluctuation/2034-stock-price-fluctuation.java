@@ -1,4 +1,5 @@
 class StockPrice {
+    // Space O(N)
     private int lastestTimestamp;
     private final Map<Integer, StockRecord> stockMap;
     private final Queue<StockRecord> minHeap;
@@ -10,6 +11,7 @@ class StockPrice {
         this.maxHeap = new PriorityQueue<>((a, b) -> Integer.compare(b.price, a.price));
     }
 
+    // OLog(N) if heapify then ON(LogN)
     public void update(int timestamp, int price) {
         lastestTimestamp = Math.max(lastestTimestamp, timestamp);
         var stockRecord = new StockRecord(timestamp, price);
@@ -19,10 +21,12 @@ class StockPrice {
         maxHeap.offer(stockRecord);
     }
 
+    // O(1)
     public int current() {
         return stockMap.get(lastestTimestamp).price;
     }
 
+    // OLog(N)
     public int maximum() {
         if(stockMap.isEmpty())
             return -1;
@@ -34,6 +38,7 @@ class StockPrice {
         return maxHeap.isEmpty() ? -1 : maxHeap.peek().price;
     }
 
+    // OLog(N)
     public int minimum() {
         if(stockMap.isEmpty())
             return -1;
