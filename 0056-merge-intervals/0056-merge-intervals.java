@@ -15,6 +15,8 @@ class Solution {
 
     Node root;
 
+    // Time complexity On(Logn)
+    // Space O(n)
     void insert(int[] interval) {
         if (root == null)
             root = new Node(interval);
