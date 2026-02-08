@@ -1,19 +1,18 @@
 class StockSpanner {
-
     private final Queue<int[]> minHeap;
-
     public StockSpanner() {
-        this.minHeap = new PriorityQueue<>(Comparator.comparing(a -> a[0]));
+        this.minHeap = new PriorityQueue<>(
+            Comparator.comparingInt(a -> a[1])
+        );
     }
 
     public int next(int price) {
-        int span = 1;
-        while (!minHeap.isEmpty() && minHeap.peek()[0] <= price) {
-            span += minHeap.poll()[1];
-        }
-
-        minHeap.offer(new int[]{price, span});
-        return span;
+       int span = 1;
+       while(!minHeap.isEmpty() && price >=  minHeap.peek()[1]) {
+            span += minHeap.poll()[0];
+       }
+       minHeap.offer(new int[] {span, price});
+       return span;
     }
 }
 
