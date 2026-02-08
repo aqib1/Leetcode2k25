@@ -1,4 +1,6 @@
 class Solution {
+    // Time complexity O(n)
+    // Space complexity O(1)
     public int compress(char[] data) {
         var ptr = 0;
         var count = 0;
