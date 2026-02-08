@@ -4,6 +4,8 @@ public class LRUCache {
     private final Node tail;
     private final Map<Integer, Node> cacheMap;
 
+    // Time complexity O(1)
+    // Space complexity O(n)
     public LRUCache(int capacity) {
         this.capacity = capacity;
         this.head = new Node();
