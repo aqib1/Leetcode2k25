@@ -4,41 +4,38 @@ class Solution {
         Node right;
         int[] interval;
 
-        Node() {
-
-        }
-
         Node(int[] interval) {
             this.interval = interval;
         }
     }
 
     Node root;
-
-    // Time complexity On(Logn)
-    // Space O(n)
+    
     void insert(int[] interval) {
-        if (root == null)
+        if(root == null) {
             root = new Node(interval);
-        else
-            addChild(root, interval);
+        } else {
+            addChildren(root, interval);
+        }
     }
 
-    void addChild(Node root, int[] interval) {
-        if (interval[1] < root.interval[0]) {
-            if (root.left == null) {
-                root.left = new Node(interval);
-            } else
-                addChild(root.left, interval);
-        } else if (interval[0] > root.interval[1]) {
-            if (root.right == null) {
-                root.right = new Node(interval);
+    void addChildren(Node node, int[] interval) {
+        if(interval[1] < node.interval[0]) {
+            if(node.left == null) {
+                node.left = new Node(interval);
             } else {
-                addChild(root.right, interval);
+                addChildren(node.left, interval);
+            }
+
+        } else if(interval[0] > node.interval[1]) {
+            if(node.right == null) {
+                node.right = new Node(interval);
+            } else {
+                addChildren(node.right, interval);
             }
         } else {
-            root.interval[0] = Math.min(root.interval[0], interval[0]);
-            root.interval[1] = Math.max(root.interval[1], interval[1]);
+            node.interval[0] = Math.min(node.interval[0], interval[0]);
+            node.interval[1] = Math.max(node.interval[1], interval[1]);
         }
     }
 
@@ -57,11 +54,13 @@ class Solution {
         inOrder(inOrder, root.right);
     }
 
+    // Time complexity ON(logN)
+    // Space O(N)
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
-        for(var interval: intervals) {
+        
+        for(int[] interval: intervals)
             insert(interval);
-        }
 
         return inOrder();
     }
