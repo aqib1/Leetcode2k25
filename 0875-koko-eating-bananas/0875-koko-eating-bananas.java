@@ -1,4 +1,6 @@
 class Solution {
+    // Time complexity O(log(max(p))) * O(p) = O(nlogn)
+    // Space O(1)
     public int minEatingSpeed(int[] piles, int h) {
         var low = 1;
         var high = Arrays.stream(piles).max().orElse(-1);
