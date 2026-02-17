@@ -1,12 +1,12 @@
 class Solution {
-    // Time complexity O(n*mLogm)
-    // Space complexity O(n*m)
+    // Time complexity O(n*mlogm)
+    // Space O(n*m)
     public List<List<String>> groupAnagrams(String[] strs) {
         if(strs == null || strs.length == 0)
             return List.of();
         var anagramMap = new HashMap<String, List<String>>();
         for(var str: strs) {
-            var key = getKey(str);
+            var key = getSortedKey(str);
             if(anagramMap.containsKey(key)) {
                 anagramMap.get(key).add(str);
             } else {
@@ -17,10 +17,9 @@ class Solution {
         return anagramMap.values().stream().toList();
     }
 
-    private String getKey(String key) {
-        var data = key.toCharArray();
+    private String getSortedKey(String str) {
+        var data = str.toCharArray();
         Arrays.sort(data);
         return String.valueOf(data);
     }
-
 }
