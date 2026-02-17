@@ -3,13 +3,13 @@ class Solution {
     // Space O(1)
     public int minEatingSpeed(int[] piles, int h) {
         var low = 1;
-        var high = Arrays.stream(piles).max().orElse(-1);
+        var high = IntStream.of(piles).max().orElse(1);
 
         while(low < high) {
-            var mid = low + (high - low) / 2;
+            int mid = low + (high - low) / 2;
             var time = 0;
             for(var pile: piles) {
-                time += (pile + mid - 1) / mid;
+                time += (pile + mid -1) / mid;
             }
             if(time <= h) {
                 high = mid;
@@ -17,6 +17,8 @@ class Solution {
                 low = mid + 1;
             }
         }
+
+
         return low;
     }
 }
