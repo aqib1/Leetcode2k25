@@ -3,19 +3,18 @@ class Solution {
     // Time complexity O(n)
     // Space complexity O(n)
     public int subarraySum(int[] nums, int k) {
-      var prefixSum = 0;
-      var count = 0;
-      var prefixSumMap = new HashMap<Integer, Integer>();
+        int prefixSum = 0;
+        int count = 0;
+        var prefixMap = new HashMap<Integer, Integer>();
 
-      for(int n: nums) {
-        prefixSumMap.put(prefixSum, prefixSumMap.getOrDefault(prefixSum, 0) + 1);
-        prefixSum += n;
-
-        if(prefixSumMap.containsKey(prefixSum - k)) {
-            count += prefixSumMap.get(prefixSum - k);
+        for (int num : nums) {
+            prefixMap.put(prefixSum, prefixMap.getOrDefault(prefixSum, 0) + 1);
+            prefixSum += num;
+            if (prefixMap.containsKey(prefixSum - k)) {
+                count += prefixMap.get(prefixSum - k);
+            }
         }
-      }
 
-      return count;
+        return count;
     }
 }
