@@ -51,6 +51,7 @@
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/aqib1/Leetcode2k25/tree/master/1127-last-stone-weight) |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/aqib1/Leetcode2k25/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1470-shuffle-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/1470-shuffle-the-array) |
 | [1929-concatenation-of-array](https://github.com/aqib1/Leetcode2k25/tree/master/1929-concatenation-of-array) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
@@ -221,6 +222,7 @@
 | [0783-search-in-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0875-koko-eating-bananas](https://github.com/aqib1/Leetcode2k25/tree/master/0875-koko-eating-bananas) |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/aqib1/Leetcode2k25/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 ## Stack
 |  |
 | ------- |
