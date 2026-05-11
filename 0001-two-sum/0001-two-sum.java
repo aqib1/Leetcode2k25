@@ -1,15 +1,15 @@
 class Solution {
-    // Time complexity O(n)
-    // Space complexity O(n)
     public int[] twoSum(int[] nums, int target) {
-        var countMap = new HashMap<Integer, Integer>();
-        for(int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
-            if(countMap.containsKey(complement)) {
-                return new int[] { countMap.get(complement), i };
+        var complimentMap = new HashMap<Integer, Integer>();
+        for(int n = 0; n < nums.length; n++) {
+            int compliment = target - nums[n];
+            if(complimentMap.containsKey(compliment)) {
+                return new int[] {complimentMap.get(compliment), n};
+            } else {
+                complimentMap.put(nums[n], n);
             }
-            countMap.put(nums[i], i);
         }
-        return new int[] {};
+
+        return null;
     }
 }
