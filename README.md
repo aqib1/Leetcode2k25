@@ -298,6 +298,7 @@
 | [1894-merge-strings-alternately](https://github.com/aqib1/Leetcode2k25/tree/master/1894-merge-strings-alternately) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
+| [3120-count-the-number-of-special-characters-i](https://github.com/aqib1/Leetcode2k25/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3684-substring-matching-pattern](https://github.com/aqib1/Leetcode2k25/tree/master/3684-substring-matching-pattern) |
 ## Hash Table
 |  |
@@ -330,6 +331,7 @@
 | [1949-implement-trie-ii-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2034-stock-price-fluctuation](https://github.com/aqib1/Leetcode2k25/tree/master/2034-stock-price-fluctuation) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/aqib1/Leetcode2k25/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [3120-count-the-number-of-special-characters-i](https://github.com/aqib1/Leetcode2k25/tree/master/3120-count-the-number-of-special-characters-i) |
 ## Math
 |  |
 | ------- |
