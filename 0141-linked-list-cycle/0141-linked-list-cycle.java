@@ -14,17 +14,15 @@ public class Solution {
         if(head == null || head.next == null)
             return false;
 
-         var slow = head; var fast = head;
-
-         do {
+        var slow = head; var fast = head.next;
+        while(fast != null && fast.next != null) {
+            if (slow == fast) {
+                return true;
+            }
             slow = slow.next;
             fast = fast.next.next;
+        }
 
-            if(slow == fast)
-                return true;
-
-         } while(fast != null && fast.next != null);
-
-         return false; 
+        return false;
     }
 }
