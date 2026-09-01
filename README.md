@@ -514,4 +514,8 @@
 |  |
 | ------- |
 | [1068-product-sales-analysis-i](https://github.com/aqib1/Leetcode2k25/tree/master/1068-product-sales-analysis-i) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/aqib1/Leetcode2k25/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
