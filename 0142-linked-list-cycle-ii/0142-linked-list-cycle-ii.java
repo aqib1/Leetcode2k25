@@ -10,33 +10,28 @@
  * }
  */
 public class Solution {
-    // Time complexity O(n)
-    // Space complexity O(1)
     public ListNode detectCycle(ListNode head) {
-         if(head == null || head.next == null)
+         if (head == null || head.next == null)
             return null;
-        
-        var slow = head; var fast = head;
 
-        do {
+        var slow = head;
+        var fast = head;
+
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
 
-            if(slow == fast)
-                break;
+            if (slow == fast) {
+                var ptr = head;
 
-        } while(fast != null && fast.next != null);
+                while (slow != null && ptr != slow) {
+                    ptr = ptr.next;
+                    slow = slow.next;
+                }
 
-        if(slow != fast)
-            return null;
-
-        slow = head;
-
-        while(slow != fast) {
-            slow = slow.next;
-            fast = fast.next;
+                return slow;
+            }
         }
-        
-        return slow;
+        return null;
     }
 }
