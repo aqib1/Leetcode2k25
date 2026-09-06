@@ -30,6 +30,7 @@
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
 | [0221-maximal-square](https://github.com/aqib1/Leetcode2k25/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/aqib1/Leetcode2k25/tree/master/0238-product-of-array-except-self) |
+| [0287-find-the-duplicate-number](https://github.com/aqib1/Leetcode2k25/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -65,6 +66,7 @@
 | [0078-subsets](https://github.com/aqib1/Leetcode2k25/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/aqib1/Leetcode2k25/tree/master/0136-single-number) |
 | [0190-reverse-bits](https://github.com/aqib1/Leetcode2k25/tree/master/0190-reverse-bits) |
+| [0287-find-the-duplicate-number](https://github.com/aqib1/Leetcode2k25/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/aqib1/Leetcode2k25/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/aqib1/Leetcode2k25/tree/master/0389-find-the-difference) |
 | [0645-set-mismatch](https://github.com/aqib1/Leetcode2k25/tree/master/0645-set-mismatch) |
@@ -214,6 +216,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/aqib1/Leetcode2k25/tree/master/0173-binary-search-tree-iterator) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0285-inorder-successor-in-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0285-inorder-successor-in-bst) |
+| [0287-find-the-duplicate-number](https://github.com/aqib1/Leetcode2k25/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/aqib1/Leetcode2k25/tree/master/0450-delete-node-in-a-bst) |
@@ -268,6 +271,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/aqib1/Leetcode2k25/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
+| [0287-find-the-duplicate-number](https://github.com/aqib1/Leetcode2k25/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0443-string-compression](https://github.com/aqib1/Leetcode2k25/tree/master/0443-string-compression) |
@@ -519,4 +523,9 @@
 | ------- |
 | [0141-linked-list-cycle](https://github.com/aqib1/Leetcode2k25/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0142-linked-list-cycle-ii) |
+| [0287-find-the-duplicate-number](https://github.com/aqib1/Leetcode2k25/tree/master/0287-find-the-duplicate-number) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/aqib1/Leetcode2k25/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
