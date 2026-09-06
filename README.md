@@ -362,6 +362,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/aqib1/Leetcode2k25/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/aqib1/Leetcode2k25/tree/master/0021-merge-two-sorted-lists) |
 | [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 ## Memoization
@@ -372,6 +373,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/aqib1/Leetcode2k25/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/aqib1/Leetcode2k25/tree/master/0021-merge-two-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/aqib1/Leetcode2k25/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aqib1/Leetcode2k25/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
