@@ -301,6 +301,7 @@
 | [0383-ransom-note](https://github.com/aqib1/Leetcode2k25/tree/master/0383-ransom-note) |
 | [0389-find-the-difference](https://github.com/aqib1/Leetcode2k25/tree/master/0389-find-the-difference) |
 | [0443-string-compression](https://github.com/aqib1/Leetcode2k25/tree/master/0443-string-compression) |
+| [0459-repeated-substring-pattern](https://github.com/aqib1/Leetcode2k25/tree/master/0459-repeated-substring-pattern) |
 | [0648-replace-words](https://github.com/aqib1/Leetcode2k25/tree/master/0648-replace-words) |
 | [0677-map-sum-pairs](https://github.com/aqib1/Leetcode2k25/tree/master/0677-map-sum-pairs) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
@@ -433,6 +434,7 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aqib1/Leetcode2k25/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0459-repeated-substring-pattern](https://github.com/aqib1/Leetcode2k25/tree/master/0459-repeated-substring-pattern) |
 | [3684-substring-matching-pattern](https://github.com/aqib1/Leetcode2k25/tree/master/3684-substring-matching-pattern) |
 ## Monotonic Stack
 |  |
@@ -542,10 +544,12 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aqib1/Leetcode2k25/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0459-repeated-substring-pattern](https://github.com/aqib1/Leetcode2k25/tree/master/0459-repeated-substring-pattern) |
 ## Knuth–Morris–Pratt Algorithm
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aqib1/Leetcode2k25/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0459-repeated-substring-pattern](https://github.com/aqib1/Leetcode2k25/tree/master/0459-repeated-substring-pattern) |
 ## Boyer–Moore String-Search Algorithm
 |  |
 | ------- |
