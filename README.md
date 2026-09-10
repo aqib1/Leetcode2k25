@@ -30,6 +30,7 @@
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
 | [0221-maximal-square](https://github.com/aqib1/Leetcode2k25/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/aqib1/Leetcode2k25/tree/master/0238-product-of-array-except-self) |
+| [0283-move-zeroes](https://github.com/aqib1/Leetcode2k25/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/aqib1/Leetcode2k25/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -273,6 +274,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/aqib1/Leetcode2k25/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/aqib1/Leetcode2k25/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/aqib1/Leetcode2k25/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/aqib1/Leetcode2k25/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
