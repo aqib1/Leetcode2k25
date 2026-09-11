@@ -16,6 +16,7 @@
 | [0051-n-queens](https://github.com/aqib1/Leetcode2k25/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/aqib1/Leetcode2k25/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/aqib1/Leetcode2k25/tree/master/0056-merge-intervals) |
+| [0066-plus-one](https://github.com/aqib1/Leetcode2k25/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/aqib1/Leetcode2k25/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/aqib1/Leetcode2k25/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -352,6 +353,7 @@
 | [0002-add-two-numbers](https://github.com/aqib1/Leetcode2k25/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/aqib1/Leetcode2k25/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/aqib1/Leetcode2k25/tree/master/0013-roman-to-integer) |
+| [0066-plus-one](https://github.com/aqib1/Leetcode2k25/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/aqib1/Leetcode2k25/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
 | [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
