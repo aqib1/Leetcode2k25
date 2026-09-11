@@ -56,6 +56,7 @@
 | [1127-last-stone-weight](https://github.com/aqib1/Leetcode2k25/tree/master/1127-last-stone-weight) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/aqib1/Leetcode2k25/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1470-shuffle-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/1470-shuffle-the-array) |
+| [1822-sign-of-the-product-of-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1929-concatenation-of-array](https://github.com/aqib1/Leetcode2k25/tree/master/1929-concatenation-of-array) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/aqib1/Leetcode2k25/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -361,6 +362,7 @@
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
+| [1822-sign-of-the-product-of-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/1822-sign-of-the-product-of-an-array) |
 ## Dynamic Programming
 |  |
 | ------- |
