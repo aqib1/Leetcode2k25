@@ -313,6 +313,7 @@
 | [0443-string-compression](https://github.com/aqib1/Leetcode2k25/tree/master/0443-string-compression) |
 | [0459-repeated-substring-pattern](https://github.com/aqib1/Leetcode2k25/tree/master/0459-repeated-substring-pattern) |
 | [0648-replace-words](https://github.com/aqib1/Leetcode2k25/tree/master/0648-replace-words) |
+| [0657-robot-return-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/0657-robot-return-to-origin) |
 | [0677-map-sum-pairs](https://github.com/aqib1/Leetcode2k25/tree/master/0677-map-sum-pairs) |
 | [0709-to-lower-case](https://github.com/aqib1/Leetcode2k25/tree/master/0709-to-lower-case) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
@@ -466,6 +467,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0657-robot-return-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/0657-robot-return-to-origin) |
 | [0682-baseball-game](https://github.com/aqib1/Leetcode2k25/tree/master/0682-baseball-game) |
 | [1929-concatenation-of-array](https://github.com/aqib1/Leetcode2k25/tree/master/1929-concatenation-of-array) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
