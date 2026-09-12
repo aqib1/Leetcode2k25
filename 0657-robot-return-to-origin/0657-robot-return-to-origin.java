@@ -1,21 +1,19 @@
 class Solution {
     public boolean judgeCircle(String moves) {
-        var moveCount = new HashMap<Character, Integer>();
-        var pairs = Map.of(
-                'L', 'R',
-                'U', 'D',
-                'R', 'L',
-                'D', 'U');
+        int x = 0, y = 0;
 
-        for (char ch : moves.toCharArray()) {
-            moveCount.put(ch, moveCount.getOrDefault(ch, 0) + 1);
+        for(char ch: moves.toCharArray()) {
+            if(ch == 'U') {
+                y++;
+            } else if (ch == 'D') {
+                y--;
+            } else if (ch == 'R') {
+                x++;
+            } else {
+                x--;
+            }
         }
 
-        for (char key : moveCount.keySet()) {
-            if (!Objects.equals(moveCount.get(key), moveCount.get(pairs.get(key))))
-                return false;
-        }
-
-        return true;
+        return x == 0 && y == 0;
     }
 }
