@@ -45,6 +45,7 @@
 | [0645-set-mismatch](https://github.com/aqib1/Leetcode2k25/tree/master/0645-set-mismatch) |
 | [0648-replace-words](https://github.com/aqib1/Leetcode2k25/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
+| [0682-baseball-game](https://github.com/aqib1/Leetcode2k25/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/aqib1/Leetcode2k25/tree/master/0695-max-area-of-island) |
 | [0713-subarray-product-less-than-k](https://github.com/aqib1/Leetcode2k25/tree/master/0713-subarray-product-less-than-k) |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
@@ -245,6 +246,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/aqib1/Leetcode2k25/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0173-binary-search-tree-iterator](https://github.com/aqib1/Leetcode2k25/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
+| [0682-baseball-game](https://github.com/aqib1/Leetcode2k25/tree/master/0682-baseball-game) |
 | [0901-online-stock-span](https://github.com/aqib1/Leetcode2k25/tree/master/0901-online-stock-span) |
 ## Breadth-First Search
 |  |
@@ -464,6 +466,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0682-baseball-game](https://github.com/aqib1/Leetcode2k25/tree/master/0682-baseball-game) |
 | [1929-concatenation-of-array](https://github.com/aqib1/Leetcode2k25/tree/master/1929-concatenation-of-array) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
 ## Merge Sort
