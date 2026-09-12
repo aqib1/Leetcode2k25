@@ -4,12 +4,9 @@ import java.util.Stack;
 
 class Solution {
     public int calPoints(String[] operations) {
-        var stack = new Stack<Integer>();
-
+       var stack = new Stack<Integer>();
         for (var op : operations) {
-            if (isNumeric(op)) {
-                stack.push(Integer.parseInt(op));
-            } else if ("C".equals(op) && !stack.isEmpty()) {
+            if ("C".equals(op) && !stack.isEmpty()) {
                 stack.pop();
             } else if ("D".equals(op) && !stack.isEmpty()) {
                 stack.push(stack.peek() * 2);
@@ -19,6 +16,8 @@ class Solution {
                 stack.push(second);
                 stack.push(first);
                 stack.push(first + second);
+            } else {
+                stack.push(Integer.parseInt(op));
             }
         }
 
@@ -27,11 +26,5 @@ class Solution {
             sum += stack.pop();
         }
         return sum;
-    }
-
-    public static boolean isNumeric(String str) {
-        ParsePosition pos = new ParsePosition(0);
-        NumberFormat.getInstance().parse(str, pos);
-        return pos.getIndex() == str.length();
     }
 }
