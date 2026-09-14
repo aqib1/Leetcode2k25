@@ -15,6 +15,7 @@
 | [0049-group-anagrams](https://github.com/aqib1/Leetcode2k25/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/aqib1/Leetcode2k25/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/aqib1/Leetcode2k25/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/aqib1/Leetcode2k25/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/aqib1/Leetcode2k25/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/aqib1/Leetcode2k25/tree/master/0075-sort-colors) |
@@ -465,6 +466,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/aqib1/Leetcode2k25/tree/master/0037-sudoku-solver) |
+| [0054-spiral-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0054-spiral-matrix) |
 | [0221-maximal-square](https://github.com/aqib1/Leetcode2k25/tree/master/0221-maximal-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
@@ -476,6 +478,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0054-spiral-matrix) |
 | [0657-robot-return-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/0657-robot-return-to-origin) |
 | [0682-baseball-game](https://github.com/aqib1/Leetcode2k25/tree/master/0682-baseball-game) |
 | [1041-robot-bounded-in-circle](https://github.com/aqib1/Leetcode2k25/tree/master/1041-robot-bounded-in-circle) |
