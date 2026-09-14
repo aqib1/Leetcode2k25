@@ -318,6 +318,7 @@
 | [0677-map-sum-pairs](https://github.com/aqib1/Leetcode2k25/tree/master/0677-map-sum-pairs) |
 | [0709-to-lower-case](https://github.com/aqib1/Leetcode2k25/tree/master/0709-to-lower-case) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
+| [1041-robot-bounded-in-circle](https://github.com/aqib1/Leetcode2k25/tree/master/1041-robot-bounded-in-circle) |
 | [1768-merge-strings-alternately](https://github.com/aqib1/Leetcode2k25/tree/master/1768-merge-strings-alternately) |
 | [1894-merge-strings-alternately](https://github.com/aqib1/Leetcode2k25/tree/master/1894-merge-strings-alternately) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/1949-implement-trie-ii-prefix-tree) |
@@ -372,6 +373,7 @@
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
+| [1041-robot-bounded-in-circle](https://github.com/aqib1/Leetcode2k25/tree/master/1041-robot-bounded-in-circle) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/1822-sign-of-the-product-of-an-array) |
 ## Dynamic Programming
 |  |
@@ -472,6 +474,7 @@
 | ------- |
 | [0657-robot-return-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/0657-robot-return-to-origin) |
 | [0682-baseball-game](https://github.com/aqib1/Leetcode2k25/tree/master/0682-baseball-game) |
+| [1041-robot-bounded-in-circle](https://github.com/aqib1/Leetcode2k25/tree/master/1041-robot-bounded-in-circle) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/aqib1/Leetcode2k25/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
 | [1929-concatenation-of-array](https://github.com/aqib1/Leetcode2k25/tree/master/1929-concatenation-of-array) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
