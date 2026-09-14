@@ -60,6 +60,7 @@
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/aqib1/Leetcode2k25/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1470-shuffle-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/1470-shuffle-the-array) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/aqib1/Leetcode2k25/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
+| [1572-matrix-diagonal-sum](https://github.com/aqib1/Leetcode2k25/tree/master/1572-matrix-diagonal-sum) |
 | [1672-richest-customer-wealth](https://github.com/aqib1/Leetcode2k25/tree/master/1672-richest-customer-wealth) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1929-concatenation-of-array](https://github.com/aqib1/Leetcode2k25/tree/master/1929-concatenation-of-array) |
@@ -469,6 +470,7 @@
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [0695-max-area-of-island](https://github.com/aqib1/Leetcode2k25/tree/master/0695-max-area-of-island) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/aqib1/Leetcode2k25/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
+| [1572-matrix-diagonal-sum](https://github.com/aqib1/Leetcode2k25/tree/master/1572-matrix-diagonal-sum) |
 | [1672-richest-customer-wealth](https://github.com/aqib1/Leetcode2k25/tree/master/1672-richest-customer-wealth) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
 ## Simulation
