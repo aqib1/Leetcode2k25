@@ -18,6 +18,7 @@
 | [0054-spiral-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/aqib1/Leetcode2k25/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/aqib1/Leetcode2k25/tree/master/0066-plus-one) |
+| [0073-set-matrix-zeroes](https://github.com/aqib1/Leetcode2k25/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/aqib1/Leetcode2k25/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/aqib1/Leetcode2k25/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -336,6 +337,7 @@
 | [0013-roman-to-integer](https://github.com/aqib1/Leetcode2k25/tree/master/0013-roman-to-integer) |
 | [0037-sudoku-solver](https://github.com/aqib1/Leetcode2k25/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/aqib1/Leetcode2k25/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/aqib1/Leetcode2k25/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0141-linked-list-cycle](https://github.com/aqib1/Leetcode2k25/tree/master/0141-linked-list-cycle) |
@@ -467,6 +469,7 @@
 | ------- |
 | [0037-sudoku-solver](https://github.com/aqib1/Leetcode2k25/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0054-spiral-matrix) |
+| [0073-set-matrix-zeroes](https://github.com/aqib1/Leetcode2k25/tree/master/0073-set-matrix-zeroes) |
 | [0221-maximal-square](https://github.com/aqib1/Leetcode2k25/tree/master/0221-maximal-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
