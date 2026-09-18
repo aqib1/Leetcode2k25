@@ -379,6 +379,7 @@
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1041-robot-bounded-in-circle](https://github.com/aqib1/Leetcode2k25/tree/master/1041-robot-bounded-in-circle) |
+| [1523-count-odd-numbers-in-an-interval-range](https://github.com/aqib1/Leetcode2k25/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/1822-sign-of-the-product-of-an-array) |
 ## Dynamic Programming
 |  |
