@@ -52,6 +52,7 @@
 | [0713-subarray-product-less-than-k](https://github.com/aqib1/Leetcode2k25/tree/master/0713-subarray-product-less-than-k) |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/aqib1/Leetcode2k25/tree/master/0817-design-hashmap) |
+| [0860-lemonade-change](https://github.com/aqib1/Leetcode2k25/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/aqib1/Leetcode2k25/tree/master/0875-koko-eating-bananas) |
 | [0896-monotonic-array](https://github.com/aqib1/Leetcode2k25/tree/master/0896-monotonic-array) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
@@ -514,6 +515,7 @@
 | ------- |
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
+| [0860-lemonade-change](https://github.com/aqib1/Leetcode2k25/tree/master/0860-lemonade-change) |
 ## Graph
 |  |
 | ------- |
