@@ -1,41 +1,21 @@
 class Solution {
     public void setZeroes(int[][] matrix) {
-        var visited = new boolean [matrix.length][matrix[0].length];
-        var rowLimit = matrix.length;
-        var colLimit = matrix[0].length;
-        for(int i = 0; i < rowLimit; i++) {
-            for(int j = 0; j < colLimit; j++) {
-                if(matrix[i][j] == 0 && !visited[i][j]) {
-                    // right move
-                    for(int rightMove = j; rightMove < colLimit; rightMove++) {
-                        if(matrix[i][rightMove] != 0 && !visited[i][rightMove]) {
-                            matrix[i][rightMove] = 0;
-                            visited[i][rightMove] = true;
-                        }
-                    }
-                    // left move
-                    for(int leftMove = j; leftMove >= 0; leftMove--) {
-                        if(matrix[i][leftMove] != 0 && !visited[i][leftMove]) {
-                            matrix[i][leftMove] = 0;
-                            visited[i][leftMove] = true;
-                        }
-                    }
+        var xIndex = new HashSet<Integer>();
+        var yIndex = new HashSet<Integer>();
 
-                    // up move
-                    for(int upMove = i; upMove >= 0; upMove--) {
-                        if(matrix[upMove][j] != 0 && !visited[upMove][j]) {
-                            matrix[upMove][j] = 0;
-                            visited[upMove][j] = true;
-                        }
-                    }
+        for(int i = 0; i < matrix.length; i++) {
+            for(int j = 0; j < matrix[i].length; j++) {
+                if(matrix[i][j] == 0) {
+                    xIndex.add(i);
+                    yIndex.add(j);
+                }
+            }
+        }
 
-                    // down move
-                    for(int downMove = i; downMove < rowLimit; downMove++) {
-                        if(matrix[downMove][j] != 0 && !visited[downMove][j]) {
-                            matrix[downMove][j] = 0;
-                            visited[downMove][j] = true;
-                        }
-                    }
+        for(int i = 0; i < matrix.length; i++) {
+            for(int j = 0; j < matrix[i].length; j++) {
+                if(xIndex.contains(i) || yIndex.contains(j)) {
+                    matrix[i][j] = 0;
                 }
             }
         }
