@@ -1,4 +1,6 @@
 class Solution {
+
+    // Time complexity O(n) and space O(1)
     public boolean checkStraightLine(int[][] coordinates) {
         var dx = coordinates[1][0] - coordinates[0][0];
         var dy = coordinates[1][1] - coordinates[0][1];
