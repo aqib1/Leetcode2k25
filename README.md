@@ -60,6 +60,7 @@
 | [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/aqib1/Leetcode2k25/tree/master/1127-last-stone-weight) |
+| [1232-check-if-it-is-a-straight-line](https://github.com/aqib1/Leetcode2k25/tree/master/1232-check-if-it-is-a-straight-line) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/aqib1/Leetcode2k25/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/aqib1/Leetcode2k25/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1470-shuffle-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/1470-shuffle-the-array) |
@@ -385,6 +386,7 @@
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1041-robot-bounded-in-circle](https://github.com/aqib1/Leetcode2k25/tree/master/1041-robot-bounded-in-circle) |
+| [1232-check-if-it-is-a-straight-line](https://github.com/aqib1/Leetcode2k25/tree/master/1232-check-if-it-is-a-straight-line) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/aqib1/Leetcode2k25/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/1822-sign-of-the-product-of-an-array) |
 ## Dynamic Programming
@@ -513,6 +515,7 @@
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
+| [1232-check-if-it-is-a-straight-line](https://github.com/aqib1/Leetcode2k25/tree/master/1232-check-if-it-is-a-straight-line) |
 ## Greedy
 |  |
 | ------- |
