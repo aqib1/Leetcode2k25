@@ -57,6 +57,7 @@
 | [0896-monotonic-array](https://github.com/aqib1/Leetcode2k25/tree/master/0896-monotonic-array) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
+| [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/aqib1/Leetcode2k25/tree/master/1127-last-stone-weight) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/aqib1/Leetcode2k25/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
@@ -108,6 +109,7 @@
 | [0645-set-mismatch](https://github.com/aqib1/Leetcode2k25/tree/master/0645-set-mismatch) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
+| [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/aqib1/Leetcode2k25/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/aqib1/Leetcode2k25/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
@@ -379,6 +381,7 @@
 | [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
 | [0523-continuous-subarray-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
+| [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
 | [1013-fibonacci-number](https://github.com/aqib1/Leetcode2k25/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1041-robot-bounded-in-circle](https://github.com/aqib1/Leetcode2k25/tree/master/1041-robot-bounded-in-circle) |
@@ -516,6 +519,7 @@
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 | [0860-lemonade-change](https://github.com/aqib1/Leetcode2k25/tree/master/0860-lemonade-change) |
+| [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
 ## Graph
 |  |
 | ------- |
@@ -592,4 +596,12 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aqib1/Leetcode2k25/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Quicksort
+|  |
+| ------- |
+| [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
+## Polygons
+|  |
+| ------- |
+| [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
 <!---LeetCode Topics End-->
