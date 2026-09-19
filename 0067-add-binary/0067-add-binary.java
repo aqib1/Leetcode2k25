@@ -1,4 +1,6 @@
 class Solution {
+
+    // Time complexity O(n) and space O(n)
     public String addBinary(String a, String b) {
         var builder = new StringBuilder();
 
