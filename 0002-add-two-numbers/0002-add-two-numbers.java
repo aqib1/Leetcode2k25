@@ -9,6 +9,7 @@
  * }
  */
 class Solution {
+    // Time complexity O(n), Space complexity O(1)
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         var result = new ListNode(-1);
         var ptr = result;
