@@ -1,4 +1,6 @@
 class Solution {
+    // Time complexity On(logn) + O(n) = O2n(logn) = Onlogn
+    // Space O(n)
     public int largestPerimeter(int[] nums) {
         Arrays.sort(nums);
         for (int i = nums.length - 1; i > 1; i--) {
