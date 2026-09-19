@@ -1,4 +1,5 @@
 class Solution {
+    // Time complexity O(n) and space O(256)
     public int lengthOfLongestSubstring(String s) {
         var count = new char[256];
         int maxLen = 0;
