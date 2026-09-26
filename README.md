@@ -218,6 +218,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0004-median-of-two-sorted-arrays) |
+| [0023-merge-k-sorted-lists](https://github.com/aqib1/Leetcode2k25/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/aqib1/Leetcode2k25/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -422,6 +423,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/aqib1/Leetcode2k25/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/aqib1/Leetcode2k25/tree/master/0021-merge-two-sorted-lists) |
+| [0023-merge-k-sorted-lists](https://github.com/aqib1/Leetcode2k25/tree/master/0023-merge-k-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/aqib1/Leetcode2k25/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aqib1/Leetcode2k25/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
@@ -434,6 +436,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/aqib1/Leetcode2k25/tree/master/0023-merge-k-sorted-lists) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0630-course-schedule-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0630-course-schedule-iii) |
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
@@ -510,6 +513,7 @@
 ## Merge Sort
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/aqib1/Leetcode2k25/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/aqib1/Leetcode2k25/tree/master/0148-sort-list) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
 ## Radix Sort
@@ -621,4 +625,8 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aqib1/Leetcode2k25/tree/master/0005-longest-palindromic-substring) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/aqib1/Leetcode2k25/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
