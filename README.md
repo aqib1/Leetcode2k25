@@ -259,6 +259,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/aqib1/Leetcode2k25/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0173-binary-search-tree-iterator](https://github.com/aqib1/Leetcode2k25/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
+| [0445-add-two-numbers-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0445-add-two-numbers-ii) |
 | [0682-baseball-game](https://github.com/aqib1/Leetcode2k25/tree/master/0682-baseball-game) |
 | [0901-online-stock-span](https://github.com/aqib1/Leetcode2k25/tree/master/0901-online-stock-span) |
 ## Breadth-First Search
@@ -388,6 +389,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/aqib1/Leetcode2k25/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
 | [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
+| [0445-add-two-numbers-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0445-add-two-numbers-ii) |
 | [0523-continuous-subarray-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 | [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
@@ -431,6 +433,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/aqib1/Leetcode2k25/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/aqib1/Leetcode2k25/tree/master/0148-sort-list) |
+| [0445-add-two-numbers-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0445-add-two-numbers-ii) |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/aqib1/Leetcode2k25/tree/master/0817-design-hashmap) |
 ## Heap (Priority Queue)
