@@ -1,15 +1,32 @@
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
+        var nIndexMap = new HashMap<Integer, List<Integer>>();
         var result = new int[nums.length];
 
         for (int i = 0; i < nums.length; i++) {
-            var count = 0;
-            for (int j = 0; j < nums.length; j++) {
-                if (i != j && nums[i] > nums[j]) {
+            var indexes = nIndexMap.getOrDefault(nums[i], new ArrayList<>());
+            indexes.add(i);
+            nIndexMap.put(nums[i], indexes);
+        }
+
+        Arrays.sort(nums);
+
+        int count = 0;
+        for (int i = 0; i < nums.length;) {
+            var indexes = nIndexMap.get(nums[i]);
+            if (indexes.size() == 1) {
+                result[indexes.getFirst()] = count;
+                count++;
+                i++;
+            } else {
+                var c = count;
+                for (int index : indexes) {
+                    result[index] = c;
+                    i++;
                     count++;
                 }
             }
-            result[i] = count;
+
         }
 
         return result;
