@@ -1,13 +1,11 @@
 class Solution {
     public int[] shuffle(int[] nums, int n) {
-        int xi = 0, yi = n;
         var result = new int[nums.length];
-        int i = 0;
-        while(i < result.length) {
-            result[i++] = nums[xi++];
-            result[i++] = nums[yi++];
+        var a = 0; var b = n;
+        for(int i = 0; i < nums.length; i += 2) {
+            result[i] = nums[a++];
+            result[i + 1] = nums[b++];
         }
-
         return result;
     }
 }
