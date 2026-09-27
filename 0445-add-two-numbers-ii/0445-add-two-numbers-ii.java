@@ -10,37 +10,31 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        var s1 = new Stack<Integer>();
-        var s2 = new Stack<Integer>();
+        var r1 = reverse(l1);
+        var r2 = reverse(l2);
         var sum = new ListNode();
         var ptr = sum;
-        while (l1 != null) {
-            s1.push(l1.val);
-            l1 = l1.next;
-        }
-        while (l2 != null) {
-            s2.push(l2.val);
-            l2 = l2.next;
-        }
-        var carry = 0;
-        while (!s1.isEmpty() || !s2.isEmpty() || carry != 0) {
-            var add = carry;
-
-            if (!s1.isEmpty())
-                add += s1.pop();
-            if (!s2.isEmpty())
-                add += s2.pop();
-
+        var carr = 0;
+        while (r1 != null || r2 != null || carr != 0) {
+            var add = carr;
+            if (r1 != null) {
+                add += r1.val;
+                r1 = r1.next;
+            }
+            if (r2 != null) {
+                add += r2.val;
+                r2 = r2.next;
+            }
             sum.next = new ListNode(add % 10);
-            carry = add / 10;
+            carr = add / 10;
             sum = sum.next;
         }
-
-        return previous(ptr.next);
+        return reverse(ptr.next);
     }
 
-    public ListNode previous(ListNode node) {
-        ListNode curr = node, prev = null;
+    public ListNode reverse(ListNode head) {
+        ListNode curr = head, prev = null;
+
         while (curr != null) {
             var next = curr.next;
             curr.next = prev;
@@ -48,6 +42,7 @@ class Solution {
             prev = curr;
             curr = next;
         }
+
         return prev;
     }
 }
