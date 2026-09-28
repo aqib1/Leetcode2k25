@@ -263,6 +263,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/aqib1/Leetcode2k25/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/aqib1/Leetcode2k25/tree/master/0224-basic-calculator) |
 | [0225-implement-stack-using-queues](https://github.com/aqib1/Leetcode2k25/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/aqib1/Leetcode2k25/tree/master/0232-implement-queue-using-stacks) |
 | [0445-add-two-numbers-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0445-add-two-numbers-ii) |
 | [0682-baseball-game](https://github.com/aqib1/Leetcode2k25/tree/master/0682-baseball-game) |
 | [0901-online-stock-span](https://github.com/aqib1/Leetcode2k25/tree/master/0901-online-stock-span) |
@@ -468,6 +469,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/aqib1/Leetcode2k25/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0225-implement-stack-using-queues](https://github.com/aqib1/Leetcode2k25/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/aqib1/Leetcode2k25/tree/master/0232-implement-queue-using-stacks) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0677-map-sum-pairs](https://github.com/aqib1/Leetcode2k25/tree/master/0677-map-sum-pairs) |
 | [0816-design-hashset](https://github.com/aqib1/Leetcode2k25/tree/master/0816-design-hashset) |
@@ -644,4 +646,5 @@
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/aqib1/Leetcode2k25/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/aqib1/Leetcode2k25/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
