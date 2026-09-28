@@ -1,6 +1,7 @@
 class MyQueue {
     private final Stack<Integer> s1;
     private final Stack<Integer> s2;
+    private int top = -1;
 
     public MyQueue() {
         this.s1 = new Stack<>();
@@ -8,39 +9,28 @@ class MyQueue {
     }
 
     public void push(int x) {
+        if (s1.isEmpty())
+            top = x;
         s1.push(x);
     }
 
-    // 2, 3, 4
-    // 4, 3, 2
     public int pop() {
-        if (s1.isEmpty())
-            return -1;
-        while (!s1.isEmpty()) {
-            s2.push(s1.pop());
+        if (s2.isEmpty()) {
+            while (!s1.isEmpty())
+                s2.push(s1.pop());
         }
-        var pop = s2.pop();
-        while (!s2.isEmpty()) {
-            s1.push(s2.pop());
-        }
-        return pop;
+        return s2.isEmpty() ? -1 : s2.pop();
     }
 
     public int peek() {
-        if (s1.isEmpty())
-            return -1;
-        while (!s1.isEmpty()) {
-            s2.push(s1.pop());
-        }
-        var peek = s2.peek();
-        while (!s2.isEmpty()) {
-            s1.push(s2.pop());
-        }
-        return peek;
+        if (!s2.isEmpty())
+            return s2.peek();
+
+        return top;
     }
 
     public boolean empty() {
-        return s1.isEmpty();
+        return s1.isEmpty() && s2.isEmpty();
     }
 }
 
