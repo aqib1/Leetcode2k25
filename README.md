@@ -38,6 +38,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/aqib1/Leetcode2k25/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/aqib1/Leetcode2k25/tree/master/0485-max-consecutive-ones) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [0494-target-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0494-target-sum) |
@@ -366,6 +367,7 @@
 | [0383-ransom-note](https://github.com/aqib1/Leetcode2k25/tree/master/0383-ransom-note) |
 | [0389-find-the-difference](https://github.com/aqib1/Leetcode2k25/tree/master/0389-find-the-difference) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0523-continuous-subarray-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/aqib1/Leetcode2k25/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/aqib1/Leetcode2k25/tree/master/0645-set-mismatch) |
