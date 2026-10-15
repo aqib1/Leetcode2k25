@@ -1,14 +1,12 @@
+import java.util.StringTokenizer;
 class Solution {
     public String reverseWords(String w) {
         w = w.trim();
-        var stack = new Stack<String>();
-        var split = w.split(" ");
-        IntStream.range(0, split.length)
-                .filter(x -> !split[x].isBlank())
-                .forEach(x -> stack.push(split[x].trim()));
-        var builder = new StringBuilder();
-        while (!stack.isEmpty())
-            builder.append(stack.pop()).append(" ");
-        return builder.toString().trim();
+        var tokens = new StringTokenizer(w);
+        StringBuilder s = new StringBuilder();
+        while (tokens.hasMoreTokens()) {
+            s.insert(0, tokens.nextToken() + " ");
+        }
+        return s.toString().trim();
     }
 }
