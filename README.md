@@ -21,6 +21,7 @@
 | [0073-set-matrix-zeroes](https://github.com/aqib1/Leetcode2k25/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/aqib1/Leetcode2k25/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/aqib1/Leetcode2k25/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/aqib1/Leetcode2k25/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/aqib1/Leetcode2k25/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -164,6 +165,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/aqib1/Leetcode2k25/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0100-same-tree) |
@@ -324,6 +326,7 @@
 | [0058-length-of-last-word](https://github.com/aqib1/Leetcode2k25/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/aqib1/Leetcode2k25/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/aqib1/Leetcode2k25/tree/master/0071-simplify-path) |
+| [0079-word-search](https://github.com/aqib1/Leetcode2k25/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/aqib1/Leetcode2k25/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/aqib1/Leetcode2k25/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/aqib1/Leetcode2k25/tree/master/0205-isomorphic-strings) |
@@ -486,6 +489,7 @@
 | [0051-n-queens](https://github.com/aqib1/Leetcode2k25/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/aqib1/Leetcode2k25/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/aqib1/Leetcode2k25/tree/master/0079-word-search) |
 | [0494-target-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0494-target-sum) |
 ## String Matching
 |  |
@@ -504,6 +508,7 @@
 | [0037-sudoku-solver](https://github.com/aqib1/Leetcode2k25/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/aqib1/Leetcode2k25/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/aqib1/Leetcode2k25/tree/master/0079-word-search) |
 | [0221-maximal-square](https://github.com/aqib1/Leetcode2k25/tree/master/0221-maximal-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
