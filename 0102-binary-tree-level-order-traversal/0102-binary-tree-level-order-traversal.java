@@ -14,29 +14,22 @@
  * }
  */
 class Solution {
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        if (root == null)
+    public List<List<Integer>> levelOrder(TreeNode treeNode) {
+       if(treeNode == null)
             return new ArrayList<>();
-        Queue<TreeNode> q = new LinkedList<>();
         List<List<Integer>> response = new ArrayList<>();
-        var currentLevel = 0;
-        q.offer(root);
-        while (!q.isEmpty()) {
-            var size = q.size();
-            response.add(new ArrayList<>());
-            for (int i = 0; i < size; i++) {
-                var curr = q.poll();
-                if (curr != null) {
-                    response.get(currentLevel).add(curr.val);
-
-                    if (curr.left != null)
-                        q.offer(curr.left);
-                    if (curr.right != null)
-                        q.offer(curr.right);
-                }
-            }
-            currentLevel++;
-        }
+        levelOrder(treeNode, 0, response);
         return response;
+    }
+
+    public static void levelOrder(TreeNode treeNode, int level, List<List<Integer>> response) {
+        if(treeNode == null)
+            return;
+        if (level == response.size())
+            response.add(new ArrayList<>());
+
+        response.get(level).add(treeNode.val);
+        levelOrder(treeNode.left, level + 1, response);
+        levelOrder(treeNode.right, level + 1, response);
     }
 }
