@@ -14,23 +14,29 @@
  * }
  */
 class Solution {
-    // Time complexity O(N) where N is number of nodes in tree and space O(N)
     public List<List<Integer>> levelOrder(TreeNode root) {
+        if (root == null)
+            return new ArrayList<>();
+        Queue<TreeNode> q = new LinkedList<>();
         List<List<Integer>> response = new ArrayList<>();
-        preOrder(root, 0, response);
+        var currentLevel = 0;
+        q.offer(root);
+        while (!q.isEmpty()) {
+            var size = q.size();
+            response.add(new ArrayList<>());
+            for (int i = 0; i < size; i++) {
+                var curr = q.poll();
+                if (curr != null) {
+                    response.get(currentLevel).add(curr.val);
+
+                    if (curr.left != null)
+                        q.offer(curr.left);
+                    if (curr.right != null)
+                        q.offer(curr.right);
+                }
+            }
+            currentLevel++;
+        }
         return response;
-    }
-    
-    public static void preOrder(TreeNode root, int height, List<List<Integer>> res) {
-        if(root == null)
-            return;
-
-        if(res.size() == height)
-            res.add(new ArrayList<>());
-
-        res.get(height).add(root.val);
-
-        preOrder(root.left, height + 1, res);
-        preOrder(root.right, height + 1, res);
     }
 }
