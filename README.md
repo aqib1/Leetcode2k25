@@ -61,6 +61,7 @@
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
 | [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
+| [0994-rotting-oranges](https://github.com/aqib1/Leetcode2k25/tree/master/0994-rotting-oranges) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/aqib1/Leetcode2k25/tree/master/1127-last-stone-weight) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/aqib1/Leetcode2k25/tree/master/1232-check-if-it-is-a-straight-line) |
@@ -289,6 +290,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [0695-max-area-of-island](https://github.com/aqib1/Leetcode2k25/tree/master/0695-max-area-of-island) |
+| [0994-rotting-oranges](https://github.com/aqib1/Leetcode2k25/tree/master/0994-rotting-oranges) |
 | [2662-check-knight-tour-configuration](https://github.com/aqib1/Leetcode2k25/tree/master/2662-check-knight-tour-configuration) |
 ## Two Pointers
 |  |
@@ -517,6 +519,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
 | [0695-max-area-of-island](https://github.com/aqib1/Leetcode2k25/tree/master/0695-max-area-of-island) |
+| [0994-rotting-oranges](https://github.com/aqib1/Leetcode2k25/tree/master/0994-rotting-oranges) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/aqib1/Leetcode2k25/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
 | [1572-matrix-diagonal-sum](https://github.com/aqib1/Leetcode2k25/tree/master/1572-matrix-diagonal-sum) |
 | [1672-richest-customer-wealth](https://github.com/aqib1/Leetcode2k25/tree/master/1672-richest-customer-wealth) |
