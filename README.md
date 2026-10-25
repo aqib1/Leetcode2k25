@@ -30,6 +30,7 @@
 | [0136-single-number](https://github.com/aqib1/Leetcode2k25/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/aqib1/Leetcode2k25/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/aqib1/Leetcode2k25/tree/master/0189-rotate-array) |
+| [0200-number-of-islands](https://github.com/aqib1/Leetcode2k25/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/aqib1/Leetcode2k25/tree/master/0217-contains-duplicate) |
 | [0220-contains-duplicate-iii](https://github.com/aqib1/Leetcode2k25/tree/master/0220-contains-duplicate-iii) |
 | [0221-maximal-square](https://github.com/aqib1/Leetcode2k25/tree/master/0221-maximal-square) |
@@ -177,6 +178,7 @@
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0145-binary-tree-postorder-traversal) |
+| [0200-number-of-islands](https://github.com/aqib1/Leetcode2k25/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/aqib1/Leetcode2k25/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0210-course-schedule-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/aqib1/Leetcode2k25/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -281,6 +283,7 @@
 | [0112-path-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aqib1/Leetcode2k25/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0200-number-of-islands](https://github.com/aqib1/Leetcode2k25/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/aqib1/Leetcode2k25/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -509,6 +512,7 @@
 | [0054-spiral-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/aqib1/Leetcode2k25/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/aqib1/Leetcode2k25/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/aqib1/Leetcode2k25/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/aqib1/Leetcode2k25/tree/master/0221-maximal-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/aqib1/Leetcode2k25/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0490-the-maze](https://github.com/aqib1/Leetcode2k25/tree/master/0490-the-maze) |
@@ -658,4 +662,8 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/aqib1/Leetcode2k25/tree/master/0020-valid-parentheses) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/aqib1/Leetcode2k25/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
