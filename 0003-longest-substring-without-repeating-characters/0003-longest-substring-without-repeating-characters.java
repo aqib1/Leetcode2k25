@@ -1,16 +1,15 @@
 class Solution {
-    // Time complexity O(n) and space O(256)
-    public int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubstring(String str) {
         var count = new char[256];
+        var charArr = str.toCharArray();
         int maxLen = 0;
         int i = 0, j = 0;
-
-        while (j < s.length()) {
-            if (count[s.charAt(j)] < 1) {
-                count[s.charAt(j++)]++;
+        while(j < charArr.length) {
+            if(count[charArr[j]] < 1) {
+                count[charArr[j++]]++;
                 maxLen = Math.max(maxLen, j - i);
             } else {
-                count[s.charAt(i++)]--;
+                count[charArr[i++]]--;
             }
         }
 
