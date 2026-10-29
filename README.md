@@ -69,6 +69,7 @@
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/aqib1/Leetcode2k25/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/aqib1/Leetcode2k25/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/aqib1/Leetcode2k25/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [1386-cinema-seat-allocation](https://github.com/aqib1/Leetcode2k25/tree/master/1386-cinema-seat-allocation) |
 | [1470-shuffle-the-array](https://github.com/aqib1/Leetcode2k25/tree/master/1470-shuffle-the-array) |
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/aqib1/Leetcode2k25/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/aqib1/Leetcode2k25/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
@@ -93,6 +94,7 @@
 | [0338-counting-bits](https://github.com/aqib1/Leetcode2k25/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/aqib1/Leetcode2k25/tree/master/0389-find-the-difference) |
 | [0645-set-mismatch](https://github.com/aqib1/Leetcode2k25/tree/master/0645-set-mismatch) |
+| [1386-cinema-seat-allocation](https://github.com/aqib1/Leetcode2k25/tree/master/1386-cinema-seat-allocation) |
 ## Sliding Window
 |  |
 | ------- |
@@ -392,6 +394,7 @@
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/aqib1/Leetcode2k25/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/aqib1/Leetcode2k25/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [1386-cinema-seat-allocation](https://github.com/aqib1/Leetcode2k25/tree/master/1386-cinema-seat-allocation) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2034-stock-price-fluctuation](https://github.com/aqib1/Leetcode2k25/tree/master/2034-stock-price-fluctuation) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/aqib1/Leetcode2k25/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -567,6 +570,7 @@
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 | [0860-lemonade-change](https://github.com/aqib1/Leetcode2k25/tree/master/0860-lemonade-change) |
 | [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
+| [1386-cinema-seat-allocation](https://github.com/aqib1/Leetcode2k25/tree/master/1386-cinema-seat-allocation) |
 ## Graph
 |  |
 | ------- |
