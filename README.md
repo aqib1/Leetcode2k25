@@ -288,6 +288,7 @@
 | [0112-path-sum](https://github.com/aqib1/Leetcode2k25/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/aqib1/Leetcode2k25/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0127-word-ladder](https://github.com/aqib1/Leetcode2k25/tree/master/0127-word-ladder) |
 | [0200-number-of-islands](https://github.com/aqib1/Leetcode2k25/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/aqib1/Leetcode2k25/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0210-course-schedule-ii) |
@@ -337,6 +338,7 @@
 | [0071-simplify-path](https://github.com/aqib1/Leetcode2k25/tree/master/0071-simplify-path) |
 | [0079-word-search](https://github.com/aqib1/Leetcode2k25/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/aqib1/Leetcode2k25/tree/master/0125-valid-palindrome) |
+| [0127-word-ladder](https://github.com/aqib1/Leetcode2k25/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/aqib1/Leetcode2k25/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/aqib1/Leetcode2k25/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/aqib1/Leetcode2k25/tree/master/0208-implement-trie-prefix-tree) |
@@ -372,6 +374,7 @@
 | [0073-set-matrix-zeroes](https://github.com/aqib1/Leetcode2k25/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/aqib1/Leetcode2k25/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0127-word-ladder](https://github.com/aqib1/Leetcode2k25/tree/master/0127-word-ladder) |
 | [0141-linked-list-cycle](https://github.com/aqib1/Leetcode2k25/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/aqib1/Leetcode2k25/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/aqib1/Leetcode2k25/tree/master/0146-lru-cache) |
@@ -676,4 +679,8 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/aqib1/Leetcode2k25/tree/master/0200-number-of-islands) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/aqib1/Leetcode2k25/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
