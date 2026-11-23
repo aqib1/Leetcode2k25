@@ -63,6 +63,7 @@
 | [0965-unique-email-addresses](https://github.com/aqib1/Leetcode2k25/tree/master/0965-unique-email-addresses) |
 | [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
 | [0994-rotting-oranges](https://github.com/aqib1/Leetcode2k25/tree/master/0994-rotting-oranges) |
+| [1005-maximize-sum-of-array-after-k-negations](https://github.com/aqib1/Leetcode2k25/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/aqib1/Leetcode2k25/tree/master/1127-last-stone-weight) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/aqib1/Leetcode2k25/tree/master/1232-check-if-it-is-a-straight-line) |
@@ -121,6 +122,7 @@
 | [0658-find-k-closest-elements](https://github.com/aqib1/Leetcode2k25/tree/master/0658-find-k-closest-elements) |
 | [0948-sort-an-array](https://github.com/aqib1/Leetcode2k25/tree/master/0948-sort-an-array) |
 | [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
+| [1005-maximize-sum-of-array-after-k-negations](https://github.com/aqib1/Leetcode2k25/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 | [1014-k-closest-points-to-origin](https://github.com/aqib1/Leetcode2k25/tree/master/1014-k-closest-points-to-origin) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/aqib1/Leetcode2k25/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/aqib1/Leetcode2k25/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
@@ -573,6 +575,7 @@
 | [0670-maximum-swap](https://github.com/aqib1/Leetcode2k25/tree/master/0670-maximum-swap) |
 | [0860-lemonade-change](https://github.com/aqib1/Leetcode2k25/tree/master/0860-lemonade-change) |
 | [0976-largest-perimeter-triangle](https://github.com/aqib1/Leetcode2k25/tree/master/0976-largest-perimeter-triangle) |
+| [1005-maximize-sum-of-array-after-k-negations](https://github.com/aqib1/Leetcode2k25/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 | [1386-cinema-seat-allocation](https://github.com/aqib1/Leetcode2k25/tree/master/1386-cinema-seat-allocation) |
 ## Graph
 |  |
