@@ -1,26 +1,25 @@
 class Solution {
     public int trap(int[] height) {
-        if (height.length == 0)
+        if (height == null || height.length == 0) {
             return 0;
-
-        var trap = 0;
-        var maxFromLeft = new int[height.length];
-        var maxFromRight = new int[height.length];
+        }
+        int trap = 0;
+        int[] maxFromLeft = new int[height.length];
+        int[] maxFromRight = new int[height.length];
 
         maxFromLeft[0] = height[0];
-        for (int i = 1; i < maxFromLeft.length; i++) {
+        for (int i = 1; i < height.length; i++) {
             maxFromLeft[i] = Math.max(maxFromLeft[i - 1], height[i]);
         }
 
-        maxFromRight[maxFromRight.length - 1] = height[maxFromRight.length - 1];
-        for (int j = maxFromRight.length - 2; j >= 0; j--) {
-            maxFromRight[j] = Math.max(height[j], maxFromRight[j + 1]);
+        maxFromRight[maxFromRight.length - 1] = height[height.length - 1];
+        for (int i = height.length - 2; i >= 0; i--) {
+            maxFromRight[i] = Math.max(maxFromRight[i + 1], height[i]);
         }
 
-        for (int k = 0; k < height.length; k++) {
-            trap += (Math.min(maxFromLeft[k], maxFromRight[k]) - height[k]);
+        for (int i = 0; i < height.length; i++) {
+            trap += Math.min(maxFromLeft[i], maxFromRight[i]) - height[i];
         }
-
         return trap;
     }
 }
