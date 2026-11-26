@@ -1,17 +1,19 @@
 class Solution {
     public int maxProfit(int[] prices) {
-       int minFromLeft = prices[0];
-       int maxProfit = 0;
-       
-       // Time complexity O(n) and space complexity O(1)
-       for(int i = 1; i < prices.length; i++) {
-            if(prices[i] <= minFromLeft) {
-                minFromLeft = prices[i];
-            } else if(prices[i] - minFromLeft > maxProfit) {
-                maxProfit = prices[i] - minFromLeft;
-            }
-       }
+       if(prices == null || prices.length == 1)
+            return 0;
 
-       return maxProfit;
+        int maxProfit = 0;
+        int minFromLeft = prices[0];
+
+        for(int i = 1; i < prices.length; i++) {
+            if(minFromLeft >= prices[i]) {
+                minFromLeft = prices[i];
+            } else {
+                maxProfit = Math.max(maxProfit, prices[i] - minFromLeft);
+            }
+        }
+
+        return maxProfit;
     }
 }
